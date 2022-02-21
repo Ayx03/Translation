@@ -166,12 +166,12 @@ such as c or java or javascript
 34
 00:01:01,920 --> 00:01:03,440
 因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
-since kotlin was created much more
+since kotlin was created much more recently
 
 35
 00:01:03,440 --> 00:01:05,519
 因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
-recently it has taken the lessons from
+it has taken the lessons from
 
 36
 00:01:05,519 --> 00:01:06,640
