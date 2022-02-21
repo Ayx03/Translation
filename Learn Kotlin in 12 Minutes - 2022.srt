@@ -1,281 +1,351 @@
 1
 00:00:00,640 --> 00:00:02,399
-in this video i'll teach you the core of
+在这个视频中我将教会你 Kotlin 编程语言的基础
+in this video i'll teach you the core of 
 
 2
 00:00:02,399 --> 00:00:04,240
-the kotlin programming language
+在这个视频中我将教会你 Kotlin 编程语言的基础
+the Kotlin programming language
 
 3
 00:00:04,240 --> 00:00:06,000
-kotlin is a general purpose statically
+Kotlin 是一种这几年很流行的通用的静态类型语言
+Kotlin is a general purpose statically
 
 4
 00:00:06,000 --> 00:00:07,759
+Kotlin 是一种这几年很流行的通用的静态类型语言
 typed language that has become extremely
 
 5
 00:00:07,759 --> 00:00:09,840
+Kotlin 是一种这几年很流行的通用的静态类型语言
 popular in the last few years
 
 6
 00:00:09,840 --> 00:00:11,679
-kotlin can be used on both the client
+Kotlin 既可以用在客户端上
+Kotlin can be used on both the client
 
 7
 00:00:11,679 --> 00:00:13,519
+也可以用在服务端上，这意味着用 Kotlin 写的代码
 and the server which means the code can
 
 8
 00:00:13,519 --> 00:00:15,280
+既可以运行在用户的设备（客户端）上
 be run either on the user's device
 
 9
 00:00:15,280 --> 00:00:17,119
+也可以运行在云服务器（服务端）上
 the client or on some computer in the
 
 10
 00:00:17,119 --> 00:00:18,800
+也可以运行在云服务器（服务端）上用以回应客户端的请求
 cloud called the server
 
 11
 00:00:18,800 --> 00:00:20,640
+也可以运行在云服务器（服务端）上用以回应客户端的请求
 which responds to requests from the
 
 12
 00:00:20,640 --> 00:00:21,920
+也可以运行在云服务器（服务端）上用以回应客户端的请求
 client
 
 13
 00:00:21,920 --> 00:00:24,400
+在客户端方面，Kotlin 现在被广泛应用于安卓开发
 on the client kotlin is now widely used
 
 14
 00:00:24,400 --> 00:00:25,519
+在客户端方面，Kotlin 现在被广泛应用于安卓开发
 for android development
 
 15
 00:00:25,519 --> 00:00:27,680
+——为 25 亿台运行安卓操作系统的设备编写应用程序
 to write apps for the 2.5 billion
 
 16
 00:00:27,680 --> 00:00:29,679
+——为 25 亿台运行安卓操作系统的设备编写应用程序
 devices running the android operating
 
 17
 00:00:29,679 --> 00:00:30,720
+——为 25 亿运行安卓操作系统的设备编写应用程序
 system
 
 18
 00:00:30,720 --> 00:00:32,960
+近几年 Kotlin 的受欢迎度大幅上升
 kotlin has seen a huge rise in
 
 19
 00:00:32,960 --> 00:00:33,920
+近几年 Kotlin 的受欢迎度年大幅上升
 popularity
 
 20
 00:00:33,920 --> 00:00:35,440
+我能保证未来的几年中它只会变得更受欢迎
 and i can promise you it will only
 
 21
 00:00:35,440 --> 00:00:38,879
+我能保证未来的几年中它只会变得更受欢迎
 become more popular in the years to come
 
 22
 00:00:38,879 --> 00:00:40,399
+Kotlin 是一种编程语言，是我们与计算机交流的一种方式
 kotlin is an example of a programming
 
 23
 00:00:40,399 --> 00:00:42,320
+Kotlin 是一种编程语言，是我们与计算机交流的一种方式
 language which is a way for me and you
 
 24
 00:00:42,320 --> 00:00:44,239
+Kotlin 是一种编程语言，是我们与计算机交流的一种方式
 to communicate with computers
 
 25
 00:00:44,239 --> 00:00:45,920
+归根结底，计算机只能理解二进制的数字——也就是0和1
 at the end of the day computers only
 
 26
 00:00:45,920 --> 00:00:48,480
+归根结底，计算机只能理解二进制的数字——也就是0和1
 understand binary zeros and ones
 
 27
 00:00:48,480 --> 00:00:50,559
+所以这些年我们创造了很多种
 so over the years we've created many
 
 28
 00:00:50,559 --> 00:00:52,640
+不同的方法来告诉计算机
 different ways to instruct the computer
 
 29
 00:00:52,640 --> 00:00:54,719
+我们希望它做什么，每一种方法
 what we'd like it to do each of these
 
 30
 00:00:54,719 --> 00:00:56,239
+都被称为一种编程语言
 approaches is called a programming
 
 31
 00:00:56,239 --> 00:00:57,039
+都被称为一种编程语言
 language
 
 32
 00:00:57,039 --> 00:00:58,399
-and you've probably heard of some of
+你可能已经听说过他们中的一些
+and you've probably heard of some of them
 
 33
 00:00:58,399 --> 00:01:01,920
-them such as c or java or javascript
+例如 C 语言、Java 和 JavaScript
+such as c or java or javascript
 
 34
 00:01:01,920 --> 00:01:03,440
+因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
 since kotlin was created much more
 
 35
 00:01:03,440 --> 00:01:05,519
+因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
 recently it has taken the lessons from
 
 36
 00:01:05,519 --> 00:01:06,640
+因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
 the earlier languages
 
 37
 00:01:06,640 --> 00:01:08,560
+因此它不仅功能更强大，也更易用
 to make something that is both powerful
 
 38
 00:01:08,560 --> 00:01:10,400
+因此它不仅功能更强大，也更易用
 and easy to use
 
 39
 00:01:10,400 --> 00:01:11,760
+Java 和 Kotlin 有一层特殊的关系——它们彼此之间互相兼容
 java and kotlin have a special
 
 40
 00:01:11,760 --> 00:01:13,680
+Java 和 Kotlin 有一层特殊的关系——它们彼此之间互相兼容
 relationship since they're compatible
 
 41
 00:01:13,680 --> 00:01:14,720
+Java 和 Kotlin 有一层特殊的关系——它们彼此之间互相兼容
 with each other
 
 42
 00:01:14,720 --> 00:01:16,560
+如果 Java 是今天被设计的，它就会长得像 Kotlin 那样
 kotlin is what java would look like if
 
 43
 00:01:16,560 --> 00:01:18,320
+如果 Java 是今天被设计的，它就会长得像 Kotlin 那样
 it was designed today
 
 44
 00:01:18,320 --> 00:01:19,840
+在这个教程中我会使用名叫 IntelliJ IDEA 的 IDE 来编写 Kotlin 代码
 to write kotlin code i'm going to be
 
 45
 00:01:19,840 --> 00:01:21,680
+在这个教程中我会使用名叫 IntelliJ IDEA 的 IDE 来编写 Kotlin 代码
 using a program called intellij which
 
 46
 00:01:21,680 --> 00:01:22,880
+你可以在互联网上免费下载它（jetbrains.com/idea/download）
 you can download for free from the
 
 47
 00:01:22,880 --> 00:01:23,840
+你可以在互联网上免费下载它（jetbrains.com/idea/download）
 internet
 
 48
 00:01:23,840 --> 00:01:25,680
+首先，我创建了一个名为 KotlinMinutes 的空文件
 to start out with i created an empty
 
 49
 00:01:25,680 --> 00:01:27,840
-file called kotlin minutes
+首先，我创建了一个名为 KotlinMinutes 的空文件
+file called KotlinMinutes
 
 50
 00:01:27,840 --> 00:01:29,600
-the file extension for kotlin files is
+Kotlin 文件的扩展名是 .kt
+the file extension for kotlin files is dot kt
 
 51
 00:01:29,600 --> 00:01:31,680
-dot kt and the code we write will be
+我们将在 main 这个特殊的函数中编写代码
+and the code we write will be
 
 52
 00:01:31,680 --> 00:01:32,400
+我们将在 main 这个特殊的函数中编写代码
 inside this
 
 53
 00:01:32,400 --> 00:01:34,560
-special function called main we'll talk
+我们将在 main 这个特殊的函数中编写代码
+special function called main
 
 54
 00:01:34,560 --> 00:01:36,000
-more about functions later
+关于函数，我们之后会讲更多
+we'll talk more about functions later
 
 55
 00:01:36,000 --> 00:01:37,600
+老规矩，我们要做的第一件事就是输出「你好，世界」
 in classic fashion the first thing we'll
 
 56
 00:01:37,600 --> 00:01:39,040
+老规矩，我们要做的第一件事就是输出「你好，世界」
 do is print out hello world
 
 57
 00:01:39,040 --> 00:01:40,640
+我们在这里调用 println() 函数并在双引号中输入 「Hello World!」
 so we'll use this function called
 
 58
 00:01:40,640 --> 00:01:42,720
+我们在这里调用 println() 函数并在双引号中输入 「Hello World!」
 println and type in hello world in
 
 59
 00:01:42,720 --> 00:01:43,680
+我们在这里调用 println() 函数并在双引号中输入 「Hello World!」
 double quotes
 
 60
 00:01:43,680 --> 00:01:45,439
+现在我们可以点击这个绿色箭头来编译并运行我们刚刚写好的代码
 now we'll execute our code by hitting
 
 61
 00:01:45,439 --> 00:01:47,680
+现在我们可以点击这个绿色箭头来编译并运行我们刚刚写好的代码
 this green arrow which will compile and
 
 62
 00:01:47,680 --> 00:01:48,640
+现在我们可以点击这个绿色箭头来编译并运行我们刚刚写好的代码
 run our code
 
 63
 00:01:48,640 --> 00:01:50,479
+编译的意思是用你写的代码生成计算机能执行的二进制文件
 compiling just means taking the symbols
 
 64
 00:01:50,479 --> 00:01:51,920
+编译的意思是用你写的代码生成计算机能执行的二进制文件
 and keyboards you write and turning that
 
 65
 00:01:51,920 --> 00:01:53,280
+编译的意思是用你写的代码生成计算机能执行的二进制文件
 into something that the computer can
 
 66
 00:01:53,280 --> 00:01:54,320
+编译的意思是用你写的代码生成计算机能执行的二进制文件
 actually execute
 
 67
 00:01:54,320 --> 00:01:56,240
+你可以在弹出的运行工具窗口中看到程序的运行结果
 you can see the output in this run tool
 
 68
 00:01:56,240 --> 00:01:57,920
+在这里它输出了「Hello World!」，符合我们的预期
 window that pops up where it says hello
 
 69
 00:01:57,920 --> 00:01:59,280
+在这里它输出了「Hello World!」，符合我们的预期
 world as we expect
 
 70
 00:01:59,280 --> 00:02:00,719
+中文翻译暂缺，如果您想参与贡献，请查看评论区置顶评论
 let's start our tour of kotlin with
 
 71
