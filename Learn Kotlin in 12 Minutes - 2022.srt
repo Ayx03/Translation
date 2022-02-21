@@ -1,0 +1,1632 @@
+1
+00:00:00,640 --> 00:00:02,399
+in this video i'll teach you the core of
+
+2
+00:00:02,399 --> 00:00:04,240
+the kotlin programming language
+
+3
+00:00:04,240 --> 00:00:06,000
+kotlin is a general purpose statically
+
+4
+00:00:06,000 --> 00:00:07,759
+typed language that has become extremely
+
+5
+00:00:07,759 --> 00:00:09,840
+popular in the last few years
+
+6
+00:00:09,840 --> 00:00:11,679
+kotlin can be used on both the client
+
+7
+00:00:11,679 --> 00:00:13,519
+and the server which means the code can
+
+8
+00:00:13,519 --> 00:00:15,280
+be run either on the user's device
+
+9
+00:00:15,280 --> 00:00:17,119
+the client or on some computer in the
+
+10
+00:00:17,119 --> 00:00:18,800
+cloud called the server
+
+11
+00:00:18,800 --> 00:00:20,640
+which responds to requests from the
+
+12
+00:00:20,640 --> 00:00:21,920
+client
+
+13
+00:00:21,920 --> 00:00:24,400
+on the client kotlin is now widely used
+
+14
+00:00:24,400 --> 00:00:25,519
+for android development
+
+15
+00:00:25,519 --> 00:00:27,680
+to write apps for the 2.5 billion
+
+16
+00:00:27,680 --> 00:00:29,679
+devices running the android operating
+
+17
+00:00:29,679 --> 00:00:30,720
+system
+
+18
+00:00:30,720 --> 00:00:32,960
+kotlin has seen a huge rise in
+
+19
+00:00:32,960 --> 00:00:33,920
+popularity
+
+20
+00:00:33,920 --> 00:00:35,440
+and i can promise you it will only
+
+21
+00:00:35,440 --> 00:00:38,879
+become more popular in the years to come
+
+22
+00:00:38,879 --> 00:00:40,399
+kotlin is an example of a programming
+
+23
+00:00:40,399 --> 00:00:42,320
+language which is a way for me and you
+
+24
+00:00:42,320 --> 00:00:44,239
+to communicate with computers
+
+25
+00:00:44,239 --> 00:00:45,920
+at the end of the day computers only
+
+26
+00:00:45,920 --> 00:00:48,480
+understand binary zeros and ones
+
+27
+00:00:48,480 --> 00:00:50,559
+so over the years we've created many
+
+28
+00:00:50,559 --> 00:00:52,640
+different ways to instruct the computer
+
+29
+00:00:52,640 --> 00:00:54,719
+what we'd like it to do each of these
+
+30
+00:00:54,719 --> 00:00:56,239
+approaches is called a programming
+
+31
+00:00:56,239 --> 00:00:57,039
+language
+
+32
+00:00:57,039 --> 00:00:58,399
+and you've probably heard of some of
+
+33
+00:00:58,399 --> 00:01:01,920
+them such as c or java or javascript
+
+34
+00:01:01,920 --> 00:01:03,440
+since kotlin was created much more
+
+35
+00:01:03,440 --> 00:01:05,519
+recently it has taken the lessons from
+
+36
+00:01:05,519 --> 00:01:06,640
+the earlier languages
+
+37
+00:01:06,640 --> 00:01:08,560
+to make something that is both powerful
+
+38
+00:01:08,560 --> 00:01:10,400
+and easy to use
+
+39
+00:01:10,400 --> 00:01:11,760
+java and kotlin have a special
+
+40
+00:01:11,760 --> 00:01:13,680
+relationship since they're compatible
+
+41
+00:01:13,680 --> 00:01:14,720
+with each other
+
+42
+00:01:14,720 --> 00:01:16,560
+kotlin is what java would look like if
+
+43
+00:01:16,560 --> 00:01:18,320
+it was designed today
+
+44
+00:01:18,320 --> 00:01:19,840
+to write kotlin code i'm going to be
+
+45
+00:01:19,840 --> 00:01:21,680
+using a program called intellij which
+
+46
+00:01:21,680 --> 00:01:22,880
+you can download for free from the
+
+47
+00:01:22,880 --> 00:01:23,840
+internet
+
+48
+00:01:23,840 --> 00:01:25,680
+to start out with i created an empty
+
+49
+00:01:25,680 --> 00:01:27,840
+file called kotlin minutes
+
+50
+00:01:27,840 --> 00:01:29,600
+the file extension for kotlin files is
+
+51
+00:01:29,600 --> 00:01:31,680
+dot kt and the code we write will be
+
+52
+00:01:31,680 --> 00:01:32,400
+inside this
+
+53
+00:01:32,400 --> 00:01:34,560
+special function called main we'll talk
+
+54
+00:01:34,560 --> 00:01:36,000
+more about functions later
+
+55
+00:01:36,000 --> 00:01:37,600
+in classic fashion the first thing we'll
+
+56
+00:01:37,600 --> 00:01:39,040
+do is print out hello world
+
+57
+00:01:39,040 --> 00:01:40,640
+so we'll use this function called
+
+58
+00:01:40,640 --> 00:01:42,720
+println and type in hello world in
+
+59
+00:01:42,720 --> 00:01:43,680
+double quotes
+
+60
+00:01:43,680 --> 00:01:45,439
+now we'll execute our code by hitting
+
+61
+00:01:45,439 --> 00:01:47,680
+this green arrow which will compile and
+
+62
+00:01:47,680 --> 00:01:48,640
+run our code
+
+63
+00:01:48,640 --> 00:01:50,479
+compiling just means taking the symbols
+
+64
+00:01:50,479 --> 00:01:51,920
+and keyboards you write and turning that
+
+65
+00:01:51,920 --> 00:01:53,280
+into something that the computer can
+
+66
+00:01:53,280 --> 00:01:54,320
+actually execute
+
+67
+00:01:54,320 --> 00:01:56,240
+you can see the output in this run tool
+
+68
+00:01:56,240 --> 00:01:57,920
+window that pops up where it says hello
+
+69
+00:01:57,920 --> 00:01:59,280
+world as we expect
+
+70
+00:01:59,280 --> 00:02:00,719
+let's start our tour of kotlin with
+
+71
+00:02:00,719 --> 00:02:03,040
+variables a variable is a piece of data
+
+72
+00:02:03,040 --> 00:02:03,920
+which has a name
+
+73
+00:02:03,920 --> 00:02:06,240
+and a type for example strings are a
+
+74
+00:02:06,240 --> 00:02:07,520
+sequence of characters
+
+75
+00:02:07,520 --> 00:02:09,598
+so my first name would be stored as a as
+
+76
+00:02:09,598 --> 00:02:10,800
+a string type
+
+77
+00:02:10,800 --> 00:02:12,400
+the way we'll declare the variable is
+
+78
+00:02:12,400 --> 00:02:14,400
+with a special keyword called val
+
+79
+00:02:14,400 --> 00:02:15,840
+you can tell it's a keyword since it'll
+
+80
+00:02:15,840 --> 00:02:17,520
+turn a different color in the editor
+
+81
+00:02:17,520 --> 00:02:19,840
+in kotlin every variable must have a
+
+82
+00:02:19,840 --> 00:02:21,120
+type that's why we say
+
+83
+00:02:21,120 --> 00:02:23,040
+kotlin is statically typed so in this
+
+84
+00:02:23,040 --> 00:02:24,959
+example the name of the variable is
+
+85
+00:02:24,959 --> 00:02:27,200
+first name and the type is string
+
+86
+00:02:27,200 --> 00:02:28,720
+because we're setting the value of the
+
+87
+00:02:28,720 --> 00:02:30,640
+variable equal to drawhold right away
+
+88
+00:02:30,640 --> 00:02:32,319
+we actually don't need to specify that
+
+89
+00:02:32,319 --> 00:02:33,680
+this is of type string
+
+90
+00:02:33,680 --> 00:02:35,360
+this is a nice feature of kotlin called
+
+91
+00:02:35,360 --> 00:02:37,040
+type inference where
+
+92
+00:02:37,040 --> 00:02:39,040
+if it's obvious what the type is we
+
+93
+00:02:39,040 --> 00:02:40,480
+don't need to explicitly
+
+94
+00:02:40,480 --> 00:02:42,160
+indicate it there's also an important
+
+95
+00:02:42,160 --> 00:02:43,760
+concept of whether a variable is
+
+96
+00:02:43,760 --> 00:02:44,720
+read-only or
+
+97
+00:02:44,720 --> 00:02:46,959
+readable and writable if the value of a
+
+98
+00:02:46,959 --> 00:02:48,000
+variable can change
+
+99
+00:02:48,000 --> 00:02:49,760
+after it's initialized then we have to
+
+100
+00:02:49,760 --> 00:02:51,200
+declare it with this var
+
+101
+00:02:51,200 --> 00:02:53,519
+keyword since my weight goes up every
+
+102
+00:02:53,519 --> 00:02:54,879
+holiday season because of how many
+
+103
+00:02:54,879 --> 00:02:55,920
+cookies i'm eating
+
+104
+00:02:55,920 --> 00:02:58,319
+we'll use var for that but my first name
+
+105
+00:02:58,319 --> 00:02:59,280
+will never change
+
+106
+00:02:59,280 --> 00:03:01,519
+so that'll be a vowel there are a few
+
+107
+00:03:01,519 --> 00:03:02,959
+other built-in types in kotlin in
+
+108
+00:03:02,959 --> 00:03:04,800
+addition to string and integer which we
+
+109
+00:03:04,800 --> 00:03:05,519
+just saw
+
+110
+00:03:05,519 --> 00:03:08,080
+for example double is for decimals like
+
+111
+00:03:08,080 --> 00:03:09,040
+2.5
+
+112
+00:03:09,040 --> 00:03:11,680
+and booleans only have two values either
+
+113
+00:03:11,680 --> 00:03:12,400
+true
+
+114
+00:03:12,400 --> 00:03:15,200
+or false as you write more code it's
+
+115
+00:03:15,200 --> 00:03:16,560
+sometimes helpful to leave yourself a
+
+116
+00:03:16,560 --> 00:03:18,159
+note about why you wrote the code in a
+
+117
+00:03:18,159 --> 00:03:18,959
+certain way
+
+118
+00:03:18,959 --> 00:03:20,560
+these are called comments and you can
+
+119
+00:03:20,560 --> 00:03:23,280
+leave a comment by using a double slash
+
+120
+00:03:23,280 --> 00:03:24,959
+commented lines are ignored by the
+
+121
+00:03:24,959 --> 00:03:26,879
+computer now that we've talked about
+
+122
+00:03:26,879 --> 00:03:27,519
+variables
+
+123
+00:03:27,519 --> 00:03:29,360
+let's look at operators which allow us
+
+124
+00:03:29,360 --> 00:03:31,440
+to manipulate these variables
+
+125
+00:03:31,440 --> 00:03:33,680
+for example we can combine two strings
+
+126
+00:03:33,680 --> 00:03:35,440
+into a longer string with a plus sign
+
+127
+00:03:35,440 --> 00:03:37,599
+which is called concatenation here we're
+
+128
+00:03:37,599 --> 00:03:39,519
+printing out the value of s1 plus
+
+129
+00:03:39,519 --> 00:03:41,840
+s2 in this variable called combined so
+
+130
+00:03:41,840 --> 00:03:43,120
+when we run the program we get the
+
+131
+00:03:43,120 --> 00:03:44,640
+result of call me maybe which is a
+
+132
+00:03:44,640 --> 00:03:46,080
+concatenation of call me
+
+133
+00:03:46,080 --> 00:03:48,480
+and maybe this is an example of a binary
+
+134
+00:03:48,480 --> 00:03:50,400
+operator because it takes in two inputs
+
+135
+00:03:50,400 --> 00:03:51,840
+there are several different binary
+
+136
+00:03:51,840 --> 00:03:53,360
+operators for numbers as you might
+
+137
+00:03:53,360 --> 00:03:54,000
+expect
+
+138
+00:03:54,000 --> 00:03:55,920
+with two integers here having value nine
+
+139
+00:03:55,920 --> 00:03:57,280
+and four we can add them together and
+
+140
+00:03:57,280 --> 00:03:58,480
+get thirteen
+
+141
+00:03:58,480 --> 00:04:01,840
+we can also subtract them multiply them
+
+142
+00:04:01,840 --> 00:04:04,560
+divide them or find the remainder after
+
+143
+00:04:04,560 --> 00:04:06,319
+the division with this percent sign
+
+144
+00:04:06,319 --> 00:04:08,879
+that would be 1 in this case let's talk
+
+145
+00:04:08,879 --> 00:04:10,239
+a bit more about strings
+
+146
+00:04:10,239 --> 00:04:11,840
+strings are a sequence of characters and
+
+147
+00:04:11,840 --> 00:04:12,959
+there are a bunch of useful things you
+
+148
+00:04:12,959 --> 00:04:14,319
+can do with them for example
+
+149
+00:04:14,319 --> 00:04:16,160
+retrieving a character in the series by
+
+150
+00:04:16,160 --> 00:04:17,600
+indexing into the string
+
+151
+00:04:17,600 --> 00:04:19,680
+like this in kotlin like most other
+
+152
+00:04:19,680 --> 00:04:21,279
+programming languages we start counting
+
+153
+00:04:21,279 --> 00:04:23,120
+at zero so the first character k
+
+154
+00:04:23,120 --> 00:04:24,560
+will be at position zero and the second
+
+155
+00:04:24,560 --> 00:04:26,400
+character o will be position one in the
+
+156
+00:04:26,400 --> 00:04:28,000
+output we can see the first two
+
+157
+00:04:28,000 --> 00:04:30,639
+letters of kotlin we can also check if a
+
+158
+00:04:30,639 --> 00:04:32,320
+string is empty using the method is
+
+159
+00:04:32,320 --> 00:04:34,000
+empty which returns a boolean true or
+
+160
+00:04:34,000 --> 00:04:34,880
+false value
+
+161
+00:04:34,880 --> 00:04:36,800
+or we can get the length of a string
+
+162
+00:04:36,800 --> 00:04:38,880
+which is an integer by using the dot
+
+163
+00:04:38,880 --> 00:04:39,919
+length property
+
+164
+00:04:39,919 --> 00:04:42,160
+if we run this we can see that my string
+
+165
+00:04:42,160 --> 00:04:43,919
+kotlin is not empty because it has
+
+166
+00:04:43,919 --> 00:04:44,560
+characters
+
+167
+00:04:44,560 --> 00:04:46,080
+and there are six characters which is
+
+168
+00:04:46,080 --> 00:04:47,759
+why the length is six
+
+169
+00:04:47,759 --> 00:04:49,759
+another method is substring which will
+
+170
+00:04:49,759 --> 00:04:51,680
+extract a portion of the string between
+
+171
+00:04:51,680 --> 00:04:53,919
+the start and end index that we provide
+
+172
+00:04:53,919 --> 00:04:57,280
+so substring with parameters 2 and 4
+
+173
+00:04:57,280 --> 00:05:00,080
+will output tl because we will start at
+
+174
+00:05:00,080 --> 00:05:00,479
+t
+
+175
+00:05:00,479 --> 00:05:04,080
+which is index 2 include index 3 the l
+
+176
+00:05:04,080 --> 00:05:07,280
+and then go up 2 but not include index 4
+
+177
+00:05:07,280 --> 00:05:08,560
+the i
+
+178
+00:05:08,560 --> 00:05:10,080
+one really handy tip as you start
+
+179
+00:05:10,080 --> 00:05:12,000
+writing more kotlin is to explore
+
+180
+00:05:12,000 --> 00:05:13,520
+other methods available to you by
+
+181
+00:05:13,520 --> 00:05:15,199
+hitting the dot or period
+
+182
+00:05:15,199 --> 00:05:17,280
+after writing the name of your variable
+
+183
+00:05:17,280 --> 00:05:19,039
+you'll get an auto complete dialog
+
+184
+00:05:19,039 --> 00:05:21,039
+which shows you all the possible things
+
+185
+00:05:21,039 --> 00:05:22,560
+you can do with this
+
+186
+00:05:22,560 --> 00:05:24,960
+variable the period is probably one of
+
+187
+00:05:24,960 --> 00:05:27,199
+the most important symbols in kotlin
+
+188
+00:05:27,199 --> 00:05:29,520
+since it allows us to use the built-in
+
+189
+00:05:29,520 --> 00:05:31,680
+functionality of the language
+
+190
+00:05:31,680 --> 00:05:33,600
+one thing worth pointing out is that the
+
+191
+00:05:33,600 --> 00:05:35,039
+options and methods that you get
+
+192
+00:05:35,039 --> 00:05:37,280
+will depend on the type of the variable
+
+193
+00:05:37,280 --> 00:05:38,800
+for example the options here
+
+194
+00:05:38,800 --> 00:05:40,320
+with the integer will be different than
+
+195
+00:05:40,320 --> 00:05:42,000
+what we had with the string
+
+196
+00:05:42,000 --> 00:05:44,160
+one last point on the topic of strings
+
+197
+00:05:44,160 --> 00:05:45,759
+we'll frequently want to print out the
+
+198
+00:05:45,759 --> 00:05:46,960
+value of a variable
+
+199
+00:05:46,960 --> 00:05:49,120
+inside a string for that we'll use the
+
+200
+00:05:49,120 --> 00:05:51,360
+dollar sign to do string interpolation
+
+201
+00:05:51,360 --> 00:05:53,440
+the dollar sign means that we'll replace
+
+202
+00:05:53,440 --> 00:05:54,560
+the variable here
+
+203
+00:05:54,560 --> 00:05:56,080
+with the contents of it inside the
+
+204
+00:05:56,080 --> 00:05:58,160
+string so if we run this we can see the
+
+205
+00:05:58,160 --> 00:05:59,919
+output is the string is kotlin because
+
+206
+00:05:59,919 --> 00:06:01,440
+the value of my string
+
+207
+00:06:01,440 --> 00:06:03,759
+is kotlin we can use interpolation for
+
+208
+00:06:03,759 --> 00:06:06,000
+variables of any type
+
+209
+00:06:06,000 --> 00:06:07,759
+let's move on to conditionals which are
+
+210
+00:06:07,759 --> 00:06:09,840
+a way to execute certain code depending
+
+211
+00:06:09,840 --> 00:06:10,960
+on a condition
+
+212
+00:06:10,960 --> 00:06:12,880
+an if statement is an example of flow
+
+213
+00:06:12,880 --> 00:06:14,560
+control which will evaluate whether
+
+214
+00:06:14,560 --> 00:06:17,120
+a statement is true or false and execute
+
+215
+00:06:17,120 --> 00:06:19,360
+some code only if it's true
+
+216
+00:06:19,360 --> 00:06:21,840
+for example we can print out a message
+
+217
+00:06:21,840 --> 00:06:22,479
+if this
+
+218
+00:06:22,479 --> 00:06:25,280
+exam score variable is greater than 70.
+
+219
+00:06:25,280 --> 00:06:27,440
+because the value 88 is larger than 70
+
+220
+00:06:27,440 --> 00:06:29,199
+when we run the code we see you passed
+
+221
+00:06:29,199 --> 00:06:30,560
+because we're running the code inside
+
+222
+00:06:30,560 --> 00:06:31,440
+the if block
+
+223
+00:06:31,440 --> 00:06:33,120
+the statement we're evaluating here can
+
+224
+00:06:33,120 --> 00:06:35,199
+be anything with a true or false return
+
+225
+00:06:35,199 --> 00:06:35,680
+value
+
+226
+00:06:35,680 --> 00:06:37,840
+so for example we could do exams greater
+
+227
+00:06:37,840 --> 00:06:38,800
+than 70
+
+228
+00:06:38,800 --> 00:06:41,360
+greater than or equal to less than less
+
+229
+00:06:41,360 --> 00:06:42,400
+than or equal to
+
+230
+00:06:42,400 --> 00:06:46,000
+equal to or not equal to a value
+
+231
+00:06:46,000 --> 00:06:47,520
+i'll change this back to exam score
+
+232
+00:06:47,520 --> 00:06:49,280
+greater than 70 but what if you want to
+
+233
+00:06:49,280 --> 00:06:51,199
+do something if that condition fails
+
+234
+00:06:51,199 --> 00:06:53,039
+for that we'll use an else block and the
+
+235
+00:06:53,039 --> 00:06:54,720
+code inside of here will get run if the
+
+236
+00:06:54,720 --> 00:06:55,840
+condition fails
+
+237
+00:06:55,840 --> 00:06:57,440
+in this case that means that the exam
+
+238
+00:06:57,440 --> 00:06:59,599
+score is less than 70 so we'll print out
+
+239
+00:06:59,599 --> 00:07:00,479
+you failed
+
+240
+00:07:00,479 --> 00:07:02,479
+and now let's change the exam score to
+
+241
+00:07:02,479 --> 00:07:04,400
+55 which is something that will trigger
+
+242
+00:07:04,400 --> 00:07:06,560
+the else block to run and so here in the
+
+243
+00:07:06,560 --> 00:07:07,840
+output you can see the message
+
+244
+00:07:07,840 --> 00:07:10,800
+you failed we often want to hold a bunch
+
+245
+00:07:10,800 --> 00:07:12,000
+of variables at once
+
+246
+00:07:12,000 --> 00:07:14,080
+instead of defining them one at a time
+
+247
+00:07:14,080 --> 00:07:16,160
+for that we can use collections
+
+248
+00:07:16,160 --> 00:07:18,560
+for example instead of having a separate
+
+249
+00:07:18,560 --> 00:07:19,599
+variable here
+
+250
+00:07:19,599 --> 00:07:21,599
+for each of my friends names we can have
+
+251
+00:07:21,599 --> 00:07:23,759
+one variable which is a list of strings
+
+252
+00:07:23,759 --> 00:07:25,440
+containing all my friends names
+
+253
+00:07:25,440 --> 00:07:26,880
+so now if i wanted to print out the
+
+254
+00:07:26,880 --> 00:07:28,880
+third element in this list we could do
+
+255
+00:07:28,880 --> 00:07:29,280
+that
+
+256
+00:07:29,280 --> 00:07:32,720
+by looking at index 2 of our names list
+
+257
+00:07:32,720 --> 00:07:35,199
+remember that kotlin is 0 indexed so ali
+
+258
+00:07:35,199 --> 00:07:36,400
+is at index 0
+
+259
+00:07:36,400 --> 00:07:39,199
+maya index 1 and chan at index 2. when
+
+260
+00:07:39,199 --> 00:07:39,840
+we run this
+
+261
+00:07:39,840 --> 00:07:42,639
+we do indeed see 10 in the output by
+
+262
+00:07:42,639 --> 00:07:43,440
+default
+
+263
+00:07:43,440 --> 00:07:45,280
+collections in kotlin are immutable
+
+264
+00:07:45,280 --> 00:07:47,039
+which means we can't add or remove
+
+265
+00:07:47,039 --> 00:07:48,400
+elements from the list
+
+266
+00:07:48,400 --> 00:07:50,080
+if we want to change the contents we
+
+267
+00:07:50,080 --> 00:07:52,479
+must declare the list as a mutable list
+
+268
+00:07:52,479 --> 00:07:54,400
+by changing the declaration now we are
+
+269
+00:07:54,400 --> 00:07:56,080
+able to add a fourth element
+
+270
+00:07:56,080 --> 00:07:57,840
+all elements in a collection must have
+
+271
+00:07:57,840 --> 00:07:59,360
+the same type so in this example
+
+272
+00:07:59,360 --> 00:08:00,800
+everything is of type string
+
+273
+00:08:00,800 --> 00:08:02,240
+and we could actually make that explicit
+
+274
+00:08:02,240 --> 00:08:04,560
+by adding this string type parameter
+
+275
+00:08:04,560 --> 00:08:06,400
+to the declaration if we tried adding
+
+276
+00:08:06,400 --> 00:08:07,919
+something else into the list we would
+
+277
+00:08:07,919 --> 00:08:09,919
+get a compile error for example
+
+278
+00:08:09,919 --> 00:08:11,919
+here we're trying to add 80 which is an
+
+279
+00:08:11,919 --> 00:08:12,960
+integer into the list
+
+280
+00:08:12,960 --> 00:08:15,039
+and if i hover over it says the integer
+
+281
+00:08:15,039 --> 00:08:16,800
+literal does not conform to the expected
+
+282
+00:08:16,800 --> 00:08:17,199
+type
+
+283
+00:08:17,199 --> 00:08:19,120
+string it's really common to do
+
+284
+00:08:19,120 --> 00:08:20,560
+something on every element
+
+285
+00:08:20,560 --> 00:08:22,400
+in a collection the most common way of
+
+286
+00:08:22,400 --> 00:08:24,319
+doing that is with a for loop
+
+287
+00:08:24,319 --> 00:08:26,400
+for example if we wanted to print out
+
+288
+00:08:26,400 --> 00:08:28,080
+each element in our list of friends
+
+289
+00:08:28,080 --> 00:08:28,720
+names
+
+290
+00:08:28,720 --> 00:08:30,479
+we'd write the for loop like this for
+
+291
+00:08:30,479 --> 00:08:31,919
+name in names
+
+292
+00:08:31,919 --> 00:08:35,039
+println name if we run this we can see
+
+293
+00:08:35,039 --> 00:08:36,719
+the output is the three names in the
+
+294
+00:08:36,719 --> 00:08:38,880
+list the way i think about this
+
+295
+00:08:38,880 --> 00:08:41,440
+is that in every cycle or iteration of
+
+296
+00:08:41,440 --> 00:08:42,399
+the for loop
+
+297
+00:08:42,399 --> 00:08:44,640
+the variable name will take on one
+
+298
+00:08:44,640 --> 00:08:46,160
+element of the list
+
+299
+00:08:46,160 --> 00:08:48,640
+it'll go in order so first it'll be ali
+
+300
+00:08:48,640 --> 00:08:51,120
+then maya and then chan
+
+301
+00:08:51,120 --> 00:08:53,200
+the other common use of for loops is to
+
+302
+00:08:53,200 --> 00:08:55,279
+do something a certain number of times
+
+303
+00:08:55,279 --> 00:08:58,959
+we can use for i in 1.5 to execute
+
+304
+00:08:58,959 --> 00:08:59,360
+something
+
+305
+00:08:59,360 --> 00:09:01,519
+exactly five times so if you run this we
+
+306
+00:09:01,519 --> 00:09:02,880
+can see that the operation that we're
+
+307
+00:09:02,880 --> 00:09:04,000
+doing five times
+
+308
+00:09:04,000 --> 00:09:06,720
+is println and we're printing out i each
+
+309
+00:09:06,720 --> 00:09:07,040
+time
+
+310
+00:09:07,040 --> 00:09:08,959
+where i will take on each of the values
+
+311
+00:09:08,959 --> 00:09:11,519
+1 through 5 before it exits the for loop
+
+312
+00:09:11,519 --> 00:09:13,200
+if we don't want to include the last
+
+313
+00:09:13,200 --> 00:09:16,000
+number then we can do for i in 1 until 5
+
+314
+00:09:16,000 --> 00:09:17,200
+and that will just print out the numbers
+
+315
+00:09:17,200 --> 00:09:18,320
+1 through 4.
+
+316
+00:09:18,320 --> 00:09:20,160
+next we'll talk about functions
+
+317
+00:09:20,160 --> 00:09:22,000
+functions are a way to combine chunks of
+
+318
+00:09:22,000 --> 00:09:23,519
+your code so we can reuse them
+
+319
+00:09:23,519 --> 00:09:25,040
+throughout our program
+
+320
+00:09:25,040 --> 00:09:27,040
+this makes our code easier to read and
+
+321
+00:09:27,040 --> 00:09:28,800
+think about we can create a function
+
+322
+00:09:28,800 --> 00:09:30,399
+with the fun keyword followed by the
+
+323
+00:09:30,399 --> 00:09:31,279
+function name
+
+324
+00:09:31,279 --> 00:09:32,800
+so in this example it's my function
+
+325
+00:09:32,800 --> 00:09:35,200
+followed by open and close parentheses
+
+326
+00:09:35,200 --> 00:09:36,640
+and then the body of the function goes
+
+327
+00:09:36,640 --> 00:09:38,560
+inside of these curly braces
+
+328
+00:09:38,560 --> 00:09:40,320
+now we can invoke our function from the
+
+329
+00:09:40,320 --> 00:09:41,680
+main function just by
+
+330
+00:09:41,680 --> 00:09:42,959
+calling it with the open and closed
+
+331
+00:09:42,959 --> 00:09:44,959
+parenthesis if we run this the body of
+
+332
+00:09:44,959 --> 00:09:45,920
+my function gets
+
+333
+00:09:45,920 --> 00:09:47,920
+executed so we print out hello if we
+
+334
+00:09:47,920 --> 00:09:50,000
+want to give this function some input we
+
+335
+00:09:50,000 --> 00:09:51,839
+can add the parameter name and type to
+
+336
+00:09:51,839 --> 00:09:52,880
+the function signature
+
+337
+00:09:52,880 --> 00:09:54,560
+so here we have a parameter name of name
+
+338
+00:09:54,560 --> 00:09:55,920
+and the type of string
+
+339
+00:09:55,920 --> 00:09:57,600
+in the body of the function we can treat
+
+340
+00:09:57,600 --> 00:09:59,519
+the parameter as a normal variable
+
+341
+00:09:59,519 --> 00:10:02,399
+so here we're including that input into
+
+342
+00:10:02,399 --> 00:10:03,279
+the print line
+
+343
+00:10:03,279 --> 00:10:04,800
+you'll notice back in the main function
+
+344
+00:10:04,800 --> 00:10:06,160
+that we now have an error when trying to
+
+345
+00:10:06,160 --> 00:10:06,640
+call
+
+346
+00:10:06,640 --> 00:10:09,120
+my function and that's because whoever
+
+347
+00:10:09,120 --> 00:10:10,320
+invokes this function
+
+348
+00:10:10,320 --> 00:10:12,000
+is responsible for passing in the
+
+349
+00:10:12,000 --> 00:10:13,600
+correct number and type
+
+350
+00:10:13,600 --> 00:10:16,240
+of parameters let's pass in the string j
+
+351
+00:10:16,240 --> 00:10:18,079
+for the parameter and if we run this now
+
+352
+00:10:18,079 --> 00:10:18,800
+we can see
+
+353
+00:10:18,800 --> 00:10:21,360
+hello j as the output we can also set
+
+354
+00:10:21,360 --> 00:10:22,880
+the visibility of functions to be
+
+355
+00:10:22,880 --> 00:10:24,720
+private so they can't be accessed from
+
+356
+00:10:24,720 --> 00:10:26,320
+other classes or files
+
+357
+00:10:26,320 --> 00:10:28,079
+people always ask me what kind of
+
+358
+00:10:28,079 --> 00:10:29,680
+private fun are you having
+
+359
+00:10:29,680 --> 00:10:32,399
+but that's the topic for another video
+
+360
+00:10:32,399 --> 00:10:34,480
+finally the concept of null is really
+
+361
+00:10:34,480 --> 00:10:35,920
+important in kotlin
+
+362
+00:10:35,920 --> 00:10:38,160
+null means having no value and if a
+
+363
+00:10:38,160 --> 00:10:40,000
+variable is allowed to have no value
+
+364
+00:10:40,000 --> 00:10:41,600
+then we need to update the type to
+
+365
+00:10:41,600 --> 00:10:43,279
+include a question mark
+
+366
+00:10:43,279 --> 00:10:45,279
+this means that the variable instagram
+
+367
+00:10:45,279 --> 00:10:47,279
+bio is a nullable string
+
+368
+00:10:47,279 --> 00:10:49,200
+so on instagram if you've written a bio
+
+369
+00:10:49,200 --> 00:10:50,720
+then this variable would have a string
+
+370
+00:10:50,720 --> 00:10:51,279
+value
+
+371
+00:10:51,279 --> 00:10:53,839
+but if it's not set it would be null the
+
+372
+00:10:53,839 --> 00:10:54,880
+important thing to remember
+
+373
+00:10:54,880 --> 00:10:56,880
+is that we can't call any methods on
+
+374
+00:10:56,880 --> 00:10:57,920
+something which is null
+
+375
+00:10:57,920 --> 00:10:59,920
+one way to get around this is to check
+
+376
+00:10:59,920 --> 00:11:01,440
+if the variable is not null
+
+377
+00:11:01,440 --> 00:11:02,640
+and then in the body of this if
+
+378
+00:11:02,640 --> 00:11:04,240
+statement we can now safely call any
+
+379
+00:11:04,240 --> 00:11:05,440
+method we want
+
+380
+00:11:05,440 --> 00:11:07,279
+in this case because we're setting
+
+381
+00:11:07,279 --> 00:11:08,800
+instagram bio to null
+
+382
+00:11:08,800 --> 00:11:10,560
+we'll fail the check on line 3 which
+
+383
+00:11:10,560 --> 00:11:12,000
+means when we run the program we get an
+
+384
+00:11:12,000 --> 00:11:13,360
+empty output
+
+385
+00:11:13,360 --> 00:11:15,360
+however if we update instagram bio to be
+
+386
+00:11:15,360 --> 00:11:17,519
+a string then we will get into the body
+
+387
+00:11:17,519 --> 00:11:18,000
+of the
+
+388
+00:11:18,000 --> 00:11:19,200
+if statement and that's how we're
+
+389
+00:11:19,200 --> 00:11:21,440
+printing out uppercase growth
+
+390
+00:11:21,440 --> 00:11:24,000
+the other way of doing this is to use a
+
+391
+00:11:24,000 --> 00:11:25,920
+shorthand for exactly this if
+
+392
+00:11:25,920 --> 00:11:28,079
+check which is the question mark dot
+
+393
+00:11:28,079 --> 00:11:30,079
+operator so we can say instagram bio
+
+394
+00:11:30,079 --> 00:11:32,560
+question mark dot to upper case and this
+
+395
+00:11:32,560 --> 00:11:34,640
+means we'll only call this method
+
+396
+00:11:34,640 --> 00:11:37,040
+on this variable or this object if it's
+
+397
+00:11:37,040 --> 00:11:38,160
+non-null
+
+398
+00:11:38,160 --> 00:11:40,240
+so if we print this out we can see that
+
+399
+00:11:40,240 --> 00:11:42,000
+we now get growth in uppercase
+
+400
+00:11:42,000 --> 00:11:44,560
+printed out twice that's pretty much the
+
+401
+00:11:44,560 --> 00:11:45,519
+core of kotlin
+
+402
+00:11:45,519 --> 00:11:48,000
+we went over variables operators strings
+
+403
+00:11:48,000 --> 00:11:50,240
+if statements for loops and functions
+
+404
+00:11:50,240 --> 00:11:51,680
+if you're interested in learning more
+
+405
+00:11:51,680 --> 00:11:53,760
+about all the good stuff in kotlin
+
+406
+00:11:53,760 --> 00:11:55,360
+i'd love if you hit the subscribe button
+
+407
+00:11:55,360 --> 00:11:57,519
+and like this video thanks for watching
+
+408
+00:11:57,519 --> 00:12:01,760
+and i'll see you in the next one
+
