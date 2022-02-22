@@ -346,11 +346,12 @@ world as we expect
 70
 00:01:59,280 --> 00:02:00,719
 让我们从变量开始我们的 Kotlin 之旅
-let's start our tour of kotlin with
+let's start our tour of kotlin with variables
 
 71
 00:02:00,719 --> 00:02:03,040
-variables a variable is a piece of data
+变量是一组有名字的数据
+a variable is a piece of data
 
 72
 00:02:03,040 --> 00:02:03,920
