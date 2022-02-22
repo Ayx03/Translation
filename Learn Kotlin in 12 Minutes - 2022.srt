@@ -345,7 +345,7 @@ world as we expect
 
 70
 00:01:59,280 --> 00:02:00,719
-中文翻译暂缺，如果您想参与贡献，请查看评论区置顶评论
+让我们从变量开始我们的 Kotlin 之旅
 let's start our tour of kotlin with
 
 71
