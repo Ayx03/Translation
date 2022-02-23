@@ -355,50 +355,62 @@ a variable is a piece of data
 
 72
 00:02:03,040 --> 00:02:03,920
-which has a name
+为了创建一个变量，你需要为它指定一个变量名和类型
+which has a name and a type
 
 73
 00:02:03,920 --> 00:02:06,240
-and a type for example strings are a
+例如 string（字符串）类型，它由一串字符组成
+for example strings are a
 
 74
 00:02:06,240 --> 00:02:07,520
+例如 string（字符串）类型，它由一串字符组成
 sequence of characters
 
 75
 00:02:07,520 --> 00:02:09,598
+所以我的名字可以用 string 类型的变量来储存
 so my first name would be stored as a as
 
 76
 00:02:09,598 --> 00:02:10,800
+所以我的名字可以用 string 类型的变量来储存
 a string type
 
 77
 00:02:10,800 --> 00:02:12,400
+要定义一个变量，我们需要使用 val 关键字
 the way we'll declare the variable is
 
 78
 00:02:12,400 --> 00:02:14,400
+要定义一个变量，我们需要使用 val 关键字
 with a special keyword called val
 
 79
 00:02:14,400 --> 00:02:15,840
+从它在编辑器中被标以不同的颜色你就能知道，它是一个关键字
 you can tell it's a keyword since it'll
 
 80
 00:02:15,840 --> 00:02:17,520
+从它在编辑器中被标以不同的颜色你就能知道，它是一个关键字
 turn a different color in the editor
 
 81
 00:02:17,520 --> 00:02:19,840
+在 Kotlin 中，每个变量都必须属于一种类型
 in kotlin every variable must have a
 
 82
 00:02:19,840 --> 00:02:21,120
+所以我们说 Kotlin 是静态类型语言
 type that's why we say
 
 83
 00:02:21,120 --> 00:02:23,040
+在这个例子中
 kotlin is statically typed so in this
 
 84
