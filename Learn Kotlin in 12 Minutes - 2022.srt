@@ -410,75 +410,92 @@ type that's why we say
 
 83
 00:02:21,120 --> 00:02:23,040
-在这个例子中
+在这个例子中，这个变量名为 firstName
 kotlin is statically typed so in this
 
 84
 00:02:23,040 --> 00:02:24,959
+在这个例子中，这个变量名为 firstName
 example the name of the variable is
 
 85
 00:02:24,959 --> 00:02:27,200
-first name and the type is string
+类型为 string
+firstName and the type is string
 
 86
 00:02:27,200 --> 00:02:28,720
+因为我们在定义变量的同时就给这个变量赋了值「Rahul」（一个字符串）
 because we're setting the value of the
 
 87
 00:02:28,720 --> 00:02:30,640
-variable equal to drawhold right away
+因为我们在定义变量的同时就给这个变量赋了值「Rahul」（一个字符串）
+variable equal to Rahul right away
 
 88
 00:02:30,640 --> 00:02:32,319
+我们其实不需要专门把这个变量定义为 string 类型
 we actually don't need to specify that
 
 89
 00:02:32,319 --> 00:02:33,680
+这就是 Kotlin 的实用功能之一——类型识别
 this is of type string
 
 90
 00:02:33,680 --> 00:02:35,360
+这就是 Kotlin 的实用功能之一——类型识别
 this is a nice feature of kotlin called
 
 91
 00:02:35,360 --> 00:02:37,040
+这就是 Kotlin 的实用功能之一——类型识别
 type inference where
 
 92
 00:02:37,040 --> 00:02:39,040
+如果我们赋的值类型很明确，就不需要单独地定义它了
 if it's obvious what the type is we
 
 93
 00:02:39,040 --> 00:02:40,480
+如果我们赋的值类型很明确，就不需要单独地定义它了
 don't need to explicitly
 
 94
 00:02:40,480 --> 00:02:42,160
+如果我们赋的值类型很明确，就不需要单独地定义它了
 indicate it there's also an important
 
 95
 00:02:42,160 --> 00:02:43,760
+还有一个重要概念是只读变量和可写变量
 concept of whether a variable is
 
 96
 00:02:43,760 --> 00:02:44,720
+还有一个重要概念是只读变量和可写变量
 read-only or
 
 97
 00:02:44,720 --> 00:02:46,959
+还有一个重要概念是只读变量和可写变量
 readable and writable if the value of a
 
 98
 00:02:46,959 --> 00:02:48,000
+如果一个变量的值需要在它被初始化后被修改
 variable can change
 
 99
 00:02:48,000 --> 00:02:49,760
+如果一个变量的值需要在它被初始化后被修改
 after it's initialized then we have to
 
 100
 00:02:49,760 --> 00:02:51,200
+我们就需要使用 var 这个关键字来定义它（而不是 val）
 declare it with this var
 
 101
