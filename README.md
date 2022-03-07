@@ -4,6 +4,10 @@
 这个库存放了一些翻译作品。
 ## 我们正在
 把 [在 12 分钟内学会 Kotlin 编程语言的基础！（变量、运算符、字符串、if 语句、for 循环、函数）](https://www.bilibili.com/video/BV11L411K7R9/) 的字幕翻译成中文
+### 进度
+已翻译 **`145`** 行/共 **`408`** 行
+
+已完成约 **`35.5%`**
 
 该视频的 CC 字幕文件：[Learn Kotlin in 12 Minutes - 2022.srt](https://github.com/Ayx03/Translation/blob/main/Learn%20Kotlin%20in%2012%20Minutes%20-%202022.srt)
 ## 如何参与贡献
