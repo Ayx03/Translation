@@ -500,182 +500,227 @@ declare it with this var
 
 101
 00:02:51,200 --> 00:02:53,519
+每到假期我的体重都会增加，因为我吃了太多曲奇
 keyword since my weight goes up every
 
 102
 00:02:53,519 --> 00:02:54,879
+每到假期我的体重都会增加，因为我吃了太多曲奇
 holiday season because of how many
 
 103
 00:02:54,879 --> 00:02:55,920
+每到假期我的体重都会增加，因为我吃了太多曲奇
 cookies i'm eating
 
 104
 00:02:55,920 --> 00:02:58,319
+我们要用 var 来定义我的体重，但是我的名字
 we'll use var for that but my first name
 
 105
 00:02:58,319 --> 00:02:59,280
+永远不会变
 will never change
 
 106
 00:02:59,280 --> 00:03:01,519
-so that'll be a vowel there are a few
+所以我们要用 val 来定义
+so that'll be a val there are a few
 
 107
 00:03:01,519 --> 00:03:02,959
+除了刚刚讲的字符串和整型外，Kotlin 还内置了几种数据类型
 other built-in types in kotlin in
 
 108
 00:03:02,959 --> 00:03:04,800
+除了刚刚讲的字符串和整型外，Kotlin 还内置了几种数据类型
 addition to string and integer which we
 
 109
 00:03:04,800 --> 00:03:05,519
+除了刚刚讲的字符串和整型外，Kotlin 还内置了几种数据类型
 just saw
 
 110
 00:03:05,519 --> 00:03:08,080
+例如 double 是用来存储像 2.5 这样的小数的
 for example double is for decimals like
 
 111
 00:03:08,080 --> 00:03:09,040
+例如 double 是用来存储像 2.5 这样的小数的
 2.5
 
 112
 00:03:09,040 --> 00:03:11,680
+而布尔类型只有两种值——真或者假
 and booleans only have two values either
 
 113
 00:03:11,680 --> 00:03:12,400
+而布尔类型只有两种值——真或者假
 true
 
 114
 00:03:12,400 --> 00:03:15,200
+编写代码的过程中，写注释有时是很有帮助的
 or false as you write more code it's
 
 115
 00:03:15,200 --> 00:03:16,560
+编写代码的过程中，为后人留下些备注有时是很有帮助的
 sometimes helpful to leave yourself a
 
 116
 00:03:16,560 --> 00:03:18,159
+它可以告诉将来的你和别人你为什么这么写这段代码
 note about why you wrote the code in a
 
 117
 00:03:18,159 --> 00:03:18,959
+它可以告诉将来的你和别人你为什么这么写这段代码
 certain way
 
 118
 00:03:18,959 --> 00:03:20,560
+这些备注就叫注释，你可以打出两个斜杠（//）来让这一行作为注释被计算机（编译器）忽略
 these are called comments and you can
 
 119
 00:03:20,560 --> 00:03:23,280
+这些备注就叫注释，你可以打出两个斜杠（//）来让这一行作为注释被计算机（编译器）忽略
 leave a comment by using a double slash
 
 120
 00:03:23,280 --> 00:03:24,959
+这些备注就叫注释，你可以打出两个斜杠（//）来让这一行作为注释被计算机（编译器）忽略
 commented lines are ignored by the
 
 121
 00:03:24,959 --> 00:03:26,879
+说完了变量，我们来讲讲运算符
 computer now that we've talked about
 
 122
 00:03:26,879 --> 00:03:27,519
+说完了变量，我们来讲讲运算符
 variables
 
 123
 00:03:27,519 --> 00:03:29,360
+说完了变量，我们来讲讲运算符
 let's look at operators which allow us
 
 124
 00:03:29,360 --> 00:03:31,440
+它们允许我们对这些变量进行运算
 to manipulate these variables
 
 125
 00:03:31,440 --> 00:03:33,680
+例如，我们可以用加号（+）来把两个字符串连成一个更长的字符串
 for example we can combine two strings
 
 126
 00:03:33,680 --> 00:03:35,440
+例如，我们可以用加号（+）来把两个字符串连成一个更长的字符串
 into a longer string with a plus sign
 
 127
 00:03:35,440 --> 00:03:37,599
+这种操作被称为字符串串接
 which is called concatenation here we're
 
 128
 00:03:37,599 --> 00:03:39,519
+在这里我们把字符串 s1 和 s2 串接的结果存储在变量 combined 中并打印了出来
 printing out the value of s1 plus
 
 129
 00:03:39,519 --> 00:03:41,840
+在这里我们把字符串 s1 和 s2 串接的结果存储在变量 combined 中并打印了出来
 s2 in this variable called combined so
 
 130
 00:03:41,840 --> 00:03:43,120
-when we run the program we get the
+所以我们运行这个程序的时候我们就会得到“call me maybe”的输出
+when we run the program we get the（Carly Rae Jepsen 的一首歌）
 
 131
 00:03:43,120 --> 00:03:44,640
+所以我们运行这个程序的时候我们就会得到“call me maybe”的输出
 result of call me maybe which is a
 
 132
 00:03:44,640 --> 00:03:46,080
+它是 "call me " 和 "maybe" 串接的结果
 concatenation of call me
 
 133
 00:03:46,080 --> 00:03:48,480
+它是 "call me " 和 "maybe" 串接的结果
 and maybe this is an example of a binary
 
 134
 00:03:48,480 --> 00:03:50,400
+这是一种二目运算符，因为它需要输入两个值
 operator because it takes in two inputs
 
 135
 00:03:50,400 --> 00:03:51,840
+如你所料，还有几种用于数字的二目运算符
 there are several different binary
 
 136
 00:03:51,840 --> 00:03:53,360
+如你所料，还有几种用于数字的二目运算符
 operators for numbers as you might
 
 137
 00:03:53,360 --> 00:03:54,000
+如你所料，还有几种用于数字的二目运算符
 expect
 
 138
 00:03:54,000 --> 00:03:55,920
+我们可以把这里的两个整数 9 和 4 相加得到和 13
 with two integers here having value nine
 
 139
 00:03:55,920 --> 00:03:57,280
+我们可以把这里的两个整数 9 和 4 相加得到和 13
 and four we can add them together and
 
 140
 00:03:57,280 --> 00:03:58,480
+我们可以把这里的两个整数 9 和 4 相加得到和 13
 get thirteen
 
 141
 00:03:58,480 --> 00:04:01,840
+我们也可以用 n1 减去 n2、乘上 n2、除以 n2
 we can also subtract them multiply them
 
 142
 00:04:01,840 --> 00:04:04,560
+或使用百分号（%）获取 n1 除以 n2 的余数
 divide them or find the remainder after
 
 143
 00:04:04,560 --> 00:04:06,319
+或使用百分号（%）获取 n1 除以 n2 的余数
 the division with this percent sign
 
 144
 00:04:06,319 --> 00:04:08,879
+在这里取模运算的结果会是 1
 that would be 1 in this case let's talk
 
 145
 00:04:08,879 --> 00:04:10,239
+是时候再拓展一下字符串相关的知识了
 a bit more about strings
 
 146
