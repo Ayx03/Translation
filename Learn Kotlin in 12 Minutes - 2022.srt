@@ -725,134 +725,167 @@ a bit more about strings
 
 146
 00:04:10,239 --> 00:04:11,840
+字符串是一个字符序列
 strings are a sequence of characters and
 
 147
 00:04:11,840 --> 00:04:12,959
+你可以用它实现很多有用的功能，例如通过下标取回字符串中特定位置的字符
 there are a bunch of useful things you
 
 148
 00:04:12,959 --> 00:04:14,319
+你可以用它实现很多有用的功能，例如通过下标取回字符串中特定位置的字符
 can do with them for example
 
 149
 00:04:14,319 --> 00:04:16,160
+你可以用它实现很多有用的功能，例如通过下标取回字符串中特定位置的字符
 retrieving a character in the series by
 
 150
 00:04:16,160 --> 00:04:17,600
+你可以用它实现很多有用的功能，例如通过下标取回字符串中特定位置的字符
 indexing into the string
 
 151
 00:04:17,600 --> 00:04:19,680
+Kotlin 的下标和大多数编程语言一样从 0 开始
 like this in kotlin like most other
 
 152
 00:04:19,680 --> 00:04:21,279
+Kotlin 的下标和大多数编程语言一样从 0 开始
 programming languages we start counting
 
 153
 00:04:21,279 --> 00:04:23,120
-at zero so the first character k
+所以第一个字符K在下标为0的位置上，第二个字符O在下标为1的位置上
+at zero so the first character K
 
 154
 00:04:23,120 --> 00:04:24,560
+所以第一个字符K在下标为0的位置上，第二个字符O在下标为1的位置上
 will be at position zero and the second
 
 155
 00:04:24,560 --> 00:04:26,400
-character o will be position one in the
+所以第一个字符K在下标为0的位置上，第二个字符O在下标为1的位置上
+character O will be position one in the
 
 156
 00:04:26,400 --> 00:04:28,000
+我们可以看到KOTLIN的前两个字母被打印出来了
 output we can see the first two
 
 157
 00:04:28,000 --> 00:04:30,639
+我们也可以用 isEmpty() 方法来检查字符出是否为空
 letters of kotlin we can also check if a
 
 158
 00:04:30,639 --> 00:04:32,320
+我们也可以用 isEmpty() 方法来检查字符出是否为空
 string is empty using the method is
 
 159
 00:04:32,320 --> 00:04:34,000
+它的返回值为布尔类型，即真或假
 empty which returns a boolean true or
 
 160
 00:04:34,000 --> 00:04:34,880
+它的返回值为布尔类型，即真或假
 false value
 
 161
 00:04:34,880 --> 00:04:36,800
+我们还可以用 .length() 函数来获取一个字符串的长度，返回值为整形
 or we can get the length of a string
 
 162
 00:04:36,800 --> 00:04:38,880
+我们还可以用 .length() 函数来获取一个字符串的长度，返回值为整形
 which is an integer by using the dot
 
 163
 00:04:38,880 --> 00:04:39,919
+我们还可以用 .length （成员变量？）来获取一个字符串的长度，返回值为整形
 length property
 
 164
 00:04:39,919 --> 00:04:42,160
+运行时我们可以得知我的字符串不为空，因为其中有字母
 if we run this we can see that my string
 
 165
 00:04:42,160 --> 00:04:43,919
+运行时我们可以得知我的字符串不为空，因为其中有字母
 kotlin is not empty because it has
 
 166
 00:04:43,919 --> 00:04:44,560
+运行时我们可以得知我的字符串不为空，因为其中有字母
 characters
 
 167
 00:04:44,560 --> 00:04:46,080
+字符串中有 6 个字母，因此字符串的长度为 6。
 and there are six characters which is
 
 168
 00:04:46,080 --> 00:04:47,759
+字符串中有 6 个字母，因此字符串的长度为 6。
 why the length is six
 
 169
 00:04:47,759 --> 00:04:49,759
+substring() 方法则会根据我们提供的起止下标从字符串中取出子串
 another method is substring which will
 
 170
 00:04:49,759 --> 00:04:51,680
+substring() 方法则会根据我们提供的起止下标从字符串中取出子串
 extract a portion of the string between
 
 171
 00:04:51,680 --> 00:04:53,919
+substring() 方法则会根据我们提供的起止下标从字符串中取出子串
 the start and end index that we provide
 
 172
 00:04:53,919 --> 00:04:57,280
+在这里 substring(2, 4) 会返回 TL
 so substring with parameters 2 and 4
 
 173
 00:04:57,280 --> 00:05:00,080
-will output tl because we will start at
+因为我们从下标为 2 的 T 开始
+will output TL because we will start at
 
 174
 00:05:00,080 --> 00:05:00,479
-t
+因为我们从下标为 2 的 T 开始
+T
 
 175
 00:05:00,479 --> 00:05:04,080
+往后取两位，取到下标为 3 的 L 为止，不包括下标为 4 的 I
 which is index 2 include index 3 the l
 
 176
 00:05:04,080 --> 00:05:07,280
+往后取两位，取到下标为 3 的 L 为止，不包括下标为 4 的 I
 and then go up 2 but not include index 4
 
 177
 00:05:07,280 --> 00:05:08,560
+往后取两位，取到下标为 3 的 L 为止，不包括下标为 4 的 I
 the i
 
 178
 00:05:08,560 --> 00:05:10,080
+中文翻译暂缺，如果您想参与贡献，请查看评论区置顶评论
 one really handy tip as you start
 
 179
