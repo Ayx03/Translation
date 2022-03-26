@@ -1110,91 +1110,113 @@ the if block
 
 223
 00:06:31,440 --> 00:06:33,120
+这里用于判断的可以是任何返回布尔类型（真或假）的表达式
 the statement we're evaluating here can
 
 224
 00:06:33,120 --> 00:06:35,199
+这里用于判断的可以是任何返回布尔类型（真或假）的表达式
 be anything with a true or false return
 
 225
 00:06:35,199 --> 00:06:35,680
+这里用于判断的可以是任何返回布尔类型（真或假）的表达式
 value
 
 226
 00:06:35,680 --> 00:06:37,840
+我们可以使用 examScore 大于 70
 so for example we could do exams greater
 
 227
 00:06:37,840 --> 00:06:38,800
+我们可以使用 examScore 大于 70
 than 70
 
 228
 00:06:38,800 --> 00:06:41,360
+或者大于等于（>=）、小于（<）、小于等于（<=）、
 greater than or equal to less than less
 
 229
 00:06:41,360 --> 00:06:42,400
+等于（==）、
 than or equal to
 
 230
 00:06:42,400 --> 00:06:46,000
+不等于（!=）一个值作为条件
 equal to or not equal to a value
 
 231
 00:06:46,000 --> 00:06:47,520
-i'll change this back to exam score
+现在我把条件改回 examScore 大于 70
+i'll change this back to examScore
 
 232
 00:06:47,520 --> 00:06:49,280
+如果我们想在这个条件不满足的时候做些什么怎么办？
 greater than 70 but what if you want to
 
 233
 00:06:49,280 --> 00:06:51,199
+如果我们想在这个条件不满足的时候做些什么怎么办？
 do something if that condition fails
 
 234
 00:06:51,199 --> 00:06:53,039
+要做到这一点，我们需要用到 else 代码块
 for that we'll use an else block and the
 
 235
 00:06:53,039 --> 00:06:54,720
+当这个条件为假时，在这个块里的代码会被执行
 code inside of here will get run if the
 
 236
 00:06:54,720 --> 00:06:55,840
+当这个条件为假时，在这个块里的代码会被执行
 condition fails
 
 237
 00:06:55,840 --> 00:06:57,440
-in this case that means that the exam
+在这个例子中，这意味着 examScore
+in this case that means that the examScore
 
 238
 00:06:57,440 --> 00:06:59,599
-score is less than 70 so we'll print out
+小于 70，所以我们将输出
+is less than 70 so we'll print out
 
 239
 00:06:59,599 --> 00:07:00,479
-you failed
+ 「You failed :(」
+“you failed :("
 
 240
 00:07:00,479 --> 00:07:02,479
-and now let's change the exam score to
+现在让我们把 examScore 的值改为 55
+and now let's change the examScore to
 
 241
 00:07:02,479 --> 00:07:04,400
+这会让 else 块内的代码被执行
 55 which is something that will trigger
 
 242
 00:07:04,400 --> 00:07:06,560
+这会让 else 块内的代码被执行，所以
 the else block to run and so here in the
 
 243
 00:07:06,560 --> 00:07:07,840
+在输出中你能看到 「You failed :(」的消息
 output you can see the message
 
 244
 00:07:07,840 --> 00:07:10,800
-you failed we often want to hold a bunch
+我们经常需要一次性定义很多变量
+"you failed :(" we often want to hold a bunch
 
 245
 00:07:10,800 --> 00:07:12,000
