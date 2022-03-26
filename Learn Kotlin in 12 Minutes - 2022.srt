@@ -800,17 +800,17 @@ false value
 
 161
 00:04:34,880 --> 00:04:36,800
-我们还可以用 .length() 函数来获取一个字符串的长度，返回值为整形
+我们还可以在变量名后面加上 .length 来获取一个字符串的长度，返回值为整形
 or we can get the length of a string
 
 162
 00:04:36,800 --> 00:04:38,880
-我们还可以用 .length() 函数来获取一个字符串的长度，返回值为整形
+我们还可以在变量名后面加上 .length 来获取一个字符串的长度，返回值为整形
 which is an integer by using the dot
 
 163
 00:04:38,880 --> 00:04:39,919
-我们还可以用 .length （成员变量？）来获取一个字符串的长度，返回值为整形
+我们还可以在变量名后面加上 .length 来获取一个字符串的长度，返回值为整形
 length property
 
 164
@@ -885,183 +885,227 @@ the i
 
 178
 00:05:08,560 --> 00:05:10,080
-中文翻译暂缺，如果您想参与贡献，请查看评论区置顶评论
+当你写了更多 Kotlin 代码之后，有个实用的建议：
 one really handy tip as you start
 
 179
 00:05:10,080 --> 00:05:12,000
+当你写了更多 Kotlin 代码之后，有个实用的建议：
 writing more kotlin is to explore
 
 180
 00:05:12,000 --> 00:05:13,520
+在你的变量名后面输入英文句点（.）来探索更多可用的方法
 other methods available to you by
 
 181
 00:05:13,520 --> 00:05:15,199
+在你的变量名后面输入英文句点（.）来探索更多可用的方法
 hitting the dot or period
 
 182
 00:05:15,199 --> 00:05:17,280
+在你的变量名后面输入英文句点（.）来探索更多可用的方法
 after writing the name of your variable
 
 183
 00:05:17,280 --> 00:05:19,039
+你会看见一个自动完成对话框
 you'll get an auto complete dialog
 
 184
 00:05:19,039 --> 00:05:21,039
+它会向你展示你能用这个变量做的所有操作
 which shows you all the possible things
 
 185
 00:05:21,039 --> 00:05:22,560
+它会向你展示你能用这个变量做的所有操作
 you can do with this
 
 186
 00:05:22,560 --> 00:05:24,960
+句号可能是 Kotlin 中最重要的符号之一
 variable the period is probably one of
 
 187
 00:05:24,960 --> 00:05:27,199
+句号可能是 Kotlin 中最重要的符号之一
 the most important symbols in kotlin
 
 188
 00:05:27,199 --> 00:05:29,520
+因为它能让我们使用这种语言的自带功能
 since it allows us to use the built-in
 
 189
 00:05:29,520 --> 00:05:31,680
+因为它能让我们使用这种语言的自带功能
 functionality of the language
 
 190
 00:05:31,680 --> 00:05:33,600
+值得指出的是，你能使用的方法与你的变量类型有关
 one thing worth pointing out is that the
 
 191
 00:05:33,600 --> 00:05:35,039
+值得指出的是，你能使用的方法与你的变量类型有关
 options and methods that you get
 
 192
 00:05:35,039 --> 00:05:37,280
+值得指出的是，你能使用的方法与你的变量类型有关
 will depend on the type of the variable
 
 193
 00:05:37,280 --> 00:05:38,800
+例如这个 int 类型的变量适用的方法就与 string 类型不同
 for example the options here
 
 194
 00:05:38,800 --> 00:05:40,320
+例如这个 int 类型的变量适用的方法就与 string 类型不同
 with the integer will be different than
 
 195
 00:05:40,320 --> 00:05:42,000
+例如这个 int 类型的变量适用的方法就与 string 类型不同
 what we had with the string
 
 196
 00:05:42,000 --> 00:05:44,160
+关于字符串的最后一个知识点
 one last point on the topic of strings
 
 197
 00:05:44,160 --> 00:05:45,759
+我们常常想要在字符串中输出一个变量的值
 we'll frequently want to print out the
 
 198
 00:05:45,759 --> 00:05:46,960
+我们常常想要在字符串中输出一个变量的值
 value of a variable
 
 199
 00:05:46,960 --> 00:05:49,120
+这种情况下我们可以用美元符号（$）来进行字符串插值
 inside a string for that we'll use the
 
 200
 00:05:49,120 --> 00:05:51,360
+这种情况下我们可以用美元符号（$）来进行字符串插值
 dollar sign to do string interpolation
 
 201
 00:05:51,360 --> 00:05:53,440
+这里的美元符号表示我们想把这个变量名替换为这个字符串存储的值
 the dollar sign means that we'll replace
 
 202
 00:05:53,440 --> 00:05:54,560
+这里的美元符号表示我们想把这个变量名替换为这个字符串存储的值
 the variable here
 
 203
 00:05:54,560 --> 00:05:56,080
+这里的美元符号表示我们想把这个变量名替换为这个字符串存储的值
 with the contents of it inside the
 
 204
 00:05:56,080 --> 00:05:58,160
+运行程序，我们可以看到输出为
 string so if we run this we can see the
 
 205
 00:05:58,160 --> 00:05:59,919
-output is the string is kotlin because
+「The string is KOTLIN」，因为
+output is "The string is KOTLIN" because
 
 206
 00:05:59,919 --> 00:06:01,440
+字符串中储存的值
 the value of my string
 
 207
 00:06:01,440 --> 00:06:03,759
-is kotlin we can use interpolation for
+是 KOTLIN。我们可以把串插值用于
+is KOTLIN we can use interpolation for
 
 208
 00:06:03,759 --> 00:06:06,000
+任何类型的变量
 variables of any type
 
 209
 00:06:06,000 --> 00:06:07,759
+接下来我们来讲讲条件语句
 let's move on to conditionals which are
 
 210
 00:06:07,759 --> 00:06:09,840
+这是一种根据条件决定是否执行特定代码的方法
 a way to execute certain code depending
 
 211
 00:06:09,840 --> 00:06:10,960
+这是一种根据条件决定是否执行特定代码的方法
 on a condition
 
 212
 00:06:10,960 --> 00:06:12,880
-an if statement is an example of flow
+if 语句是一种流控制
+and if statement is an example of flow
 
 213
 00:06:12,880 --> 00:06:14,560
+它会判断一个表达式的值是真还是假，且仅在它为真的情况下执行一些代码
 control which will evaluate whether
 
 214
 00:06:14,560 --> 00:06:17,120
+它会判断一个表达式的值是真还是假，且仅在它为真的情况下执行一些代码
 a statement is true or false and execute
 
 215
 00:06:17,120 --> 00:06:19,360
+它会判断一个表达式的值是真还是假，且仅在它为真的情况下执行一些代码
 some code only if it's true
 
 216
 00:06:19,360 --> 00:06:21,840
+例如，我们可以在 examScore 变量大于 70 时打印一条信息
 for example we can print out a message
 
 217
 00:06:21,840 --> 00:06:22,479
+例如，我们可以在 examScore 变量大于 70 时打印一条信息
 if this
 
 218
 00:06:22,479 --> 00:06:25,280
+例如，我们可以在 examScore 变量大于 70 时打印一条信息
 exam score variable is greater than 70.
 
 219
 00:06:25,280 --> 00:06:27,440
+因为变量的值 88 大于 70
 because the value 88 is larger than 70
 
 220
 00:06:27,440 --> 00:06:29,199
-when we run the code we see you passed
+我们运行这段代码时会看到「you passed!」
+when we run the code we see "you passed!"
 
 221
 00:06:29,199 --> 00:06:30,560
+因为 if 代码块内的语句被执行了
 because we're running the code inside
 
 222
 00:06:30,560 --> 00:06:31,440
+因为 if 代码块内的语句被执行了
 the if block
 
 223
