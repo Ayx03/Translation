@@ -15,7 +15,9 @@
 
 首先，[登录](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsignup%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home) GitHub 账号。如果你还没有，先[注册](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)一个。
 ### 如果你想指出问题并由我们去修正
-请[发 Issue ](https://github.com/Ayx03/Translation/issues/new)给我们，我们会尽快解决您提出的问题
+请[发 Issue ](https://github.com/Ayx03/Translation/issues/new)给我们，我们会尽快解决您提出的问题。
+
+如果你不知道怎么写一个 Issue，可以参考这个 Issue：<https://github.com/Ayx03/Translation/issues/2>
 ### 如果你想通过直接编辑来修正问题
 - [编辑 Learn Kotlin in 12 Minutes - 2022.srt](https://github.com/Ayx03/Translation/edit/main/Learn%20Kotlin%20in%2012%20Minutes%20-%202022.srt)
 - 在右上角点击 [`Fork`](https://github.com/Ayx03/Translation/fork) 来在你的账号中创建一份本仓库的副本
