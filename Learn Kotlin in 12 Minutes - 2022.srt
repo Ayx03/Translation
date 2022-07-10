@@ -1220,6 +1220,7 @@ output you can see the message
 
 245
 00:07:10,800 --> 00:07:12,000
+我们经常需要一次性定义很多变量
 of variables at once
 
 246
