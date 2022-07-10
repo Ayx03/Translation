@@ -1215,175 +1215,217 @@ output you can see the message
 
 244
 00:07:07,840 --> 00:07:10,800
-我们经常需要一次性定义很多变量
+我们经常需要用到很多变量
 "you failed :(" we often want to hold a bunch
 
 245
 00:07:10,800 --> 00:07:12,000
+我们经常需要用到很多变量
 of variables at once
 
 246
 00:07:12,000 --> 00:07:14,080
+这种情况我们可以使用集合而不是一个个定义
 instead of defining them one at a time
 
 247
 00:07:14,080 --> 00:07:16,160
+这种情况我们可以使用集合而不是一个个定义
 for that we can use collections
 
 248
 00:07:16,160 --> 00:07:18,560
+例如，我们可以用一个字符串集合来保存我的所有朋友的名字
 for example instead of having a separate
 
 249
 00:07:18,560 --> 00:07:19,599
+例如，我们可以用一个字符串集合来保存我的所有朋友的名字
 variable here
 
 250
 00:07:19,599 --> 00:07:21,599
+例如，我们可以用一个字符串集合来保存我的所有朋友的名字
 for each of my friends names we can have
 
 251
 00:07:21,599 --> 00:07:23,759
+而不是为每个名字单独定义一个变量
 one variable which is a list of strings
 
 252
 00:07:23,759 --> 00:07:25,440
+而不是为每个名字单独定义一个变量
 containing all my friends names
 
 253
 00:07:25,440 --> 00:07:26,880
+如果需要打印出列表中的第三个元素我们可以
 so now if i wanted to print out the
 
 254
 00:07:26,880 --> 00:07:28,880
+如果需要打印出列表中的第三个元素我们可以
 third element in this list we could do
 
 255
 00:07:28,880 --> 00:07:29,280
+如果需要打印出列表中的第三个元素我们可以
 that
 
 256
 00:07:29,280 --> 00:07:32,720
+查找名字列表中的索引 2
 by looking at index 2 of our names list
 
 257
 00:07:32,720 --> 00:07:35,199
-remember that kotlin is 0 indexed so ali
+记住 Kotlin 是从 0 开始计数的，所以 Ali
+remember that kotlin is 0 indexed so Ali
 
 258
 00:07:35,199 --> 00:07:36,400
+在第 0 个位置
 is at index 0
 
 259
 00:07:36,400 --> 00:07:39,199
-maya index 1 and chan at index 2. when
+Maya 在第 1 个，Chen 在第二个。当
+Maya index 1 and Chen at index 2. when
 
 260
 00:07:39,199 --> 00:07:39,840
+当我们运行这个
 we run this
 
 261
 00:07:39,840 --> 00:07:42,639
-we do indeed see 10 in the output by
+我们可以马上在输出处看到 「Chen」
+we do indeed see Chen in the output
 
 262
 00:07:42,639 --> 00:07:43,440
-default
+正常情况下
+by default
 
 263
 00:07:43,440 --> 00:07:45,280
+Kotlin 中的集合是只读的
 collections in kotlin are immutable
 
 264
 00:07:45,280 --> 00:07:47,039
+意味着我们不能从中新增或移除元素
 which means we can't add or remove
 
 265
 00:07:47,039 --> 00:07:48,400
+意味着我们不能从中新增或移除元素
 elements from the list
 
 266
 00:07:48,400 --> 00:07:50,080
+如果我们想修改列表中的内容，我们
 if we want to change the contents we
 
 267
 00:07:50,080 --> 00:07:52,479
+必须把它定义成可变的列表
 must declare the list as a mutable list
 
 268
 00:07:52,479 --> 00:07:54,400
+修改定义部分（加上mutable）后我们
 by changing the declaration now we are
 
 269
 00:07:54,400 --> 00:07:56,080
+可以往里添加第四个元素
 able to add a fourth element
 
 270
 00:07:56,080 --> 00:07:57,840
+集合中的所有元素类型必须相同，所以在这里它们都是 string 类型
 all elements in a collection must have
 
 271
 00:07:57,840 --> 00:07:59,360
+集合中的所有元素类型必须相同，所以在这里它们都是 string 类型
 the same type so in this example
 
 272
 00:07:59,360 --> 00:08:00,800
+集合中的所有元素类型必须相同，所以在这里它们都是 string 类型
 everything is of type string
 
 273
 00:08:00,800 --> 00:08:02,240
+实际上我们把 string 类型参数加到定义部分来明确这一点
 and we could actually make that explicit
 
 274
 00:08:02,240 --> 00:08:04,560
+实际上我们把 string 类型参数加到定义部分来明确这一点
 by adding this string type parameter
 
 275
 00:08:04,560 --> 00:08:06,400
+实际上我们把 string 类型参数加到定义部分来明确这一点
 to the declaration if we tried adding
 
 276
 00:08:06,400 --> 00:08:07,919
+如果我们尝试往列表中新增其他类型的元素，会出现编译错误
 something else into the list we would
 
 277
 00:08:07,919 --> 00:08:09,919
+如果我们尝试往列表中新增其他类型的元素，会出现编译错误
 get a compile error for example
 
 278
 00:08:09,919 --> 00:08:11,919
+例如这里我们尝试向列表中添加整数「80」
 here we're trying to add 80 which is an
 
 279
 00:08:11,919 --> 00:08:12,960
+例如这里我们尝试向列表中添加整数「80」
 integer into the list
 
 280
 00:08:12,960 --> 00:08:15,039
+把鼠标移到上方，提示「整型数字不符合预期的 string 类型」
 and if i hover over it says the integer
 
 281
 00:08:15,039 --> 00:08:16,800
+把鼠标移到上方，提示「整型数字不符合预期的 string 类型」
 literal does not conform to the expected
 
 282
 00:08:16,800 --> 00:08:17,199
+把鼠标移到上方，提示「整型数字不符合预期的 string 类型」
 type
 
 283
 00:08:17,199 --> 00:08:19,120
+对集合中的每个元素进行操作是很常见的
 string it's really common to do
 
 284
 00:08:19,120 --> 00:08:20,560
+对集合中的每个元素进行操作是很常见的
 something on every element
 
 285
 00:08:20,560 --> 00:08:22,400
+for 循环是实现它最常见的方法
 in a collection the most common way of
 
 286
 00:08:22,400 --> 00:08:24,319
+for 循环是实现它最常见的方法
 doing that is with a for loop
 
 287
