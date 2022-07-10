@@ -7,9 +7,9 @@
 
 该视频的 CC 字幕文件：[Learn Kotlin in 12 Minutes - 2022.srt](https://github.com/Ayx03/Translation/blob/main/Learn%20Kotlin%20in%2012%20Minutes%20-%202022.srt)
 ## 当前进度
-已翻译 **`222`** 行/共 **`408`** 行
+已翻译 **`286`** 行/共 **`408`** 行
 
-完成度约 **`54.4%`**
+完成度约 **`70.09803921568627%`**
 
 ## 如何参与贡献
 从未接触过 [Git](https://git-scm.com/) 和 [GitHub](https://github.com/)？不会用命令行？搞不懂怎么发 pr/issue？没关系，这很容易。
