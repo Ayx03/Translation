@@ -1,9 +1,28 @@
 # Aynxul03 的翻译仓库
-[Readme America English version](https://github.com/Ayx03/Translation/blob/main/README-en_US.md)
+[English Version of README](https://github.com/Ayx03/Translation/blob/main/README-en_US.md)
+## 目录
+[使用本库中的翻译](#使用本库中的翻译)
 
-这个库存放了一些翻译作品。
-## 我们正在
-把 [Kotlin 0 基础小白12分钟快速入门教程——Kotlin 的变量、运算符、字符串、if 语句、for 循环、函数 Kotlin in 12 minutes](https://www.bilibili.com/video/BV11L411K7R9/) 的字幕翻译成中文。
+[字幕/歌词](#字幕歌词)
+
+[OI 题面](#oi-题面)
+
+[正在制作](#正在制作)
+
+[当前进度](#当前进度)
+
+[如何参与贡献](#如何参与贡献)
+
+
+这个库存放了一些我个人完成和与他人合作完成的翻译作品。
+### 使用本库中的翻译
+非商业用途请标明出处（附上本库和您利用的文件的链接）以及截至您引用为止时的贡献者名单。暂不允许用于商业用途，[字幕/歌词类作品](#字幕歌词)的视频/音乐原作者除外。
+## 字幕/歌词
+[Smile - Ukuletea // Original Song (out on spotify!)](https://github.com/Ayx03/Translation/blob/main/Smile%20-%20Ukuletea%20__%20Original%20Song%20(out%20on%20spotify!).srt)
+## OI 题面
+[CF1607C Minimum Extraction](https://github.com/Ayx03/Translation/blob/main/CF1607C%20Minimum%20Extraction.md)
+## 正在制作
+[视频] [Kotlin 0 基础小白12分钟快速入门教程——Kotlin 的变量、运算符、字符串、if 语句、for 循环、函数 Kotlin in 12 minutes](https://www.bilibili.com/video/BV11L411K7R9/) 的中文字幕（基于 YouTube 自动生成的中文字幕）。
 
 该视频的 CC 字幕文件：[Learn Kotlin in 12 Minutes - 2022.srt](https://github.com/Ayx03/Translation/blob/main/Learn%20Kotlin%20in%2012%20Minutes%20-%202022.srt)
 ## 当前进度
@@ -16,7 +35,7 @@
 
 首先，[登录](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsignup%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home) GitHub 账号。如果你还没有，先[注册](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)一个。然后——
 ### ⬤ 如果你想指出问题并由我们去修正
-请[发一个 Issue ](https://github.com/Ayx03/Translation/issues/new)，我们会尽快解决您提出的问题。
+请[发一个 Issue](https://github.com/Ayx03/Translation/issues/new)，我们会尽快解决您提出的问题。
 
 如果你不知道怎么写一个 Issue，可以参考这个 Issue：<https://github.com/Ayx03/Translation/issues/2>
 ### ⬤ 如果你想通过直接编辑来修正问题
@@ -37,6 +56,4 @@
 - （可选）在右上角点击你的头像，选择 `Your repositories` 并找到 fork 的同名仓库，切换到 `patch-1` 分支后打开文件来进行更多更改
 - 创建 Pull Request
   - 这里是一个例子：#1
-- 如果你做的更改看起来很棒，我们会将它合并到主线。（当然，也有些时候我们会做一些修改，所以建议 `Allow edits by maintainers`）
-### 使用本库中的翻译
-非商业用途请标明出处及截至您引用为止时的贡献者名单。不允许商业用途。
+- 如果你做的更改看起来很棒，我们会将它合并到主线。（当然，也有些时候我们会想要做一些修改，所以建议勾选 `Allow edits by maintainers`）
