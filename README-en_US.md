@@ -1,4 +1,6 @@
 # Translation Repository
+This version of the readme may not be updated in time, if you can please read the Chinese version instead.
+
 [中文版 README](https://github.com/Ayx03/Translation/blob/main/README.md)
 
 This repository contains some translation works.
