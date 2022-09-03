@@ -40,7 +40,7 @@ be run either on the user's device
 
 9
 00:00:15,280 --> 00:00:17,119
-也可以运行在云服务器（服务端）上
+也可以运行在云服务器（服务端）上用以回应客户端的请求
 the client or on some computer in the
 
 10
@@ -66,7 +66,7 @@ on the client Kotlin is now widely used
 14
 00:00:24,400 --> 00:00:25,519
 在客户端方面，Kotlin 现在被广泛应用于安卓开发
-for android development
+for Android development
 
 15
 00:00:25,519 --> 00:00:27,680
@@ -76,7 +76,7 @@ to write apps for the 2.5 billion
 16
 00:00:27,680 --> 00:00:29,679
 ——为 25 亿台运行安卓操作系统的设备编写应用程序
-devices running the android operating
+devices running the Android operating
 
 17
 00:00:29,679 --> 00:00:30,720
@@ -85,22 +85,22 @@ system
 
 18
 00:00:30,720 --> 00:00:32,960
-近几年 Kotlin 的受欢迎度大幅上升
+近几年 Kotlin 的人气大增
 Kotlin has seen a huge rise in
 
 19
 00:00:32,960 --> 00:00:33,920
-近几年 Kotlin 的受欢迎度年大幅上升
+近几年 Kotlin 的人气大增
 popularity
 
 20
 00:00:33,920 --> 00:00:35,440
-我能保证未来的几年中它只会变得更受欢迎
+我能向你保证未来的几年中它只会变得更受欢迎
 and i can promise you it will only
 
 21
 00:00:35,440 --> 00:00:38,879
-我能保证未来的几年中它只会变得更受欢迎
+我能向你保证未来的几年中它只会变得更受欢迎
 become more popular in the years to come
 
 22
@@ -120,12 +120,12 @@ to communicate with computers
 
 25
 00:00:44,239 --> 00:00:45,920
-归根结底，计算机只能理解二进制的数字——也就是0和1
+归根结底，计算机只能理解二进制的数字——也就是 0 和 1
 at the end of the day computers only
 
 26
 00:00:45,920 --> 00:00:48,480
-归根结底，计算机只能理解二进制的数字——也就是0和1
+归根结底，计算机只能理解二进制的数字——也就是 0 和 1
 understand binary zeros and ones
 
 27
@@ -161,21 +161,21 @@ and you've probably heard of some of them
 33
 00:00:58,399 --> 00:01:01,920
 例如 C 语言、Java 和 JavaScript
-such as c or java or javascript
+such as C or Java or JavaScript
 
 34
 00:01:01,920 --> 00:01:03,440
-因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
+由于 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
 since Kotlin was created much more recently
 
 35
 00:01:03,440 --> 00:01:05,519
-因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
+由于 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
 it has taken the lessons from
 
 36
 00:01:05,519 --> 00:01:06,640
-因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
+由于 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
 the earlier languages
 
 37
@@ -191,7 +191,7 @@ and easy to use
 39
 00:01:10,400 --> 00:01:11,760
 Java 和 Kotlin 有一层特殊的关系——它们彼此之间互相兼容
-java and Kotlin have a special
+Java and Kotlin have a special
 
 40
 00:01:11,760 --> 00:01:13,680
@@ -206,7 +206,7 @@ with each other
 42
 00:01:14,720 --> 00:01:16,560
 如果 Java 是今天被设计的，它就会长得像 Kotlin 那样
-Kotlin is what java would look like if
+Kotlin is what Java would look like if
 
 43
 00:01:16,560 --> 00:01:18,320
@@ -215,13 +215,13 @@ it was designed today
 
 44
 00:01:18,320 --> 00:01:19,840
-在这个教程中我会使用名叫 IntelliJ IDEA 的 IDE 来编写 Kotlin 代码
+在这个教程中我会使用名叫 IntelliJ IDEA 的集成开发环境（IDE）来编写 Kotlin 代码
 to write Kotlin code i'm going to be
 
 45
 00:01:19,840 --> 00:01:21,680
-在这个教程中我会使用名叫 IntelliJ IDEA 的 IDE 来编写 Kotlin 代码
-using a program called intellij which
+在这个教程中我会使用名叫 IntelliJ IDEA 的集成开发环境（IDE）来编写 Kotlin 代码
+using a program called intelliJ which
 
 46
 00:01:21,680 --> 00:01:22,880
@@ -276,7 +276,7 @@ in classic fashion the first thing we'll
 56
 00:01:37,600 --> 00:01:39,040
 老规矩，我们要做的第一件事就是输出「你好，世界」
-do is print out hello world
+do is print out "Hello world!"
 
 57
 00:01:39,040 --> 00:01:40,640
@@ -286,7 +286,7 @@ so we'll use this function called
 58
 00:01:40,640 --> 00:01:42,720
 我们在这里调用 println() 函数并在双引号中输入 「Hello World!」
-println and type in hello world in
+println and type in "Hello world!" in
 
 59
 00:01:42,720 --> 00:01:43,680
@@ -316,7 +316,7 @@ compiling just means taking the symbols
 64
 00:01:50,479 --> 00:01:51,920
 编译的意思是用你写的代码生成计算机能执行的二进制文件
-and keyboards you write and turning that
+and keywords you write and turning that
 
 65
 00:01:51,920 --> 00:01:53,280
@@ -336,12 +336,12 @@ you can see the output in this run tool
 68
 00:01:56,240 --> 00:01:57,920
 在这里它输出了「Hello World!」，符合我们的预期
-window that pops up where it says hello
+window that pops up where it says "Hello
 
 69
 00:01:57,920 --> 00:01:59,280
 在这里它输出了「Hello World!」，符合我们的预期
-world as we expect
+world!" as we expect
 
 70
 00:01:59,280 --> 00:02:00,719
@@ -565,7 +565,7 @@ true
 
 114
 00:03:12,400 --> 00:03:15,200
-编写代码的过程中，写注释有时是很有帮助的
+编写代码的过程中，为后人留下些备注有时是很有帮助的
 or false as you write more code it's
 
 115
@@ -575,7 +575,7 @@ sometimes helpful to leave yourself a
 
 116
 00:03:16,560 --> 00:03:18,159
-它可以告诉将来的你和别人你为什么这么写这段代码
+它可以告诉将来的自己和别人你为什么这样写这段代码
 note about why you wrote the code in a
 
 117
@@ -585,7 +585,7 @@ certain way
 
 118
 00:03:18,959 --> 00:03:20,560
-这些备注就叫注释，你可以打出两个斜杠（//）来让这一行作为注释被计算机（编译器）忽略
+这些备注就叫注释，你可以用双斜杠（//）来让这行代码作为注释被计算机（编译器）忽略
 these are called comments and you can
 
 119
@@ -615,7 +615,7 @@ let's look at operators which allow us
 
 124
 00:03:29,360 --> 00:03:31,440
-它们允许我们对这些变量进行运算
+运算符我们对这些变量进行操作
 to manipulate these variables
 
 125
