@@ -2000,6 +2000,7 @@ printed out twice that's pretty much the
 
 401
 00:11:44,560 --> 00:11:45,519
+这些差不多就是 Kotlin 的核心了
 core of Kotlin
 
 402
