@@ -61,7 +61,7 @@ client
 13
 00:00:21,920 --> 00:00:24,400
 在客户端方面，Kotlin 现在被广泛应用于安卓开发
-on the client kotlin is now widely used
+on the client Kotlin is now widely used
 
 14
 00:00:24,400 --> 00:00:25,519
@@ -86,7 +86,7 @@ system
 18
 00:00:30,720 --> 00:00:32,960
 近几年 Kotlin 的受欢迎度大幅上升
-kotlin has seen a huge rise in
+Kotlin has seen a huge rise in
 
 19
 00:00:32,960 --> 00:00:33,920
@@ -106,7 +106,7 @@ become more popular in the years to come
 22
 00:00:38,879 --> 00:00:40,399
 Kotlin 是一种编程语言，是我们与计算机交流的一种方式
-kotlin is an example of a programming
+Kotlin is an example of a programming
 
 23
 00:00:40,399 --> 00:00:42,320
@@ -166,7 +166,7 @@ such as c or java or javascript
 34
 00:01:01,920 --> 00:01:03,440
 因为 Kotlin 诞生得更晚，它从早期的编程语言中汲取了教训
-since kotlin was created much more recently
+since Kotlin was created much more recently
 
 35
 00:01:03,440 --> 00:01:05,519
@@ -191,7 +191,7 @@ and easy to use
 39
 00:01:10,400 --> 00:01:11,760
 Java 和 Kotlin 有一层特殊的关系——它们彼此之间互相兼容
-java and kotlin have a special
+java and Kotlin have a special
 
 40
 00:01:11,760 --> 00:01:13,680
@@ -206,7 +206,7 @@ with each other
 42
 00:01:14,720 --> 00:01:16,560
 如果 Java 是今天被设计的，它就会长得像 Kotlin 那样
-kotlin is what java would look like if
+Kotlin is what java would look like if
 
 43
 00:01:16,560 --> 00:01:18,320
@@ -216,7 +216,7 @@ it was designed today
 44
 00:01:18,320 --> 00:01:19,840
 在这个教程中我会使用名叫 IntelliJ IDEA 的 IDE 来编写 Kotlin 代码
-to write kotlin code i'm going to be
+to write Kotlin code i'm going to be
 
 45
 00:01:19,840 --> 00:01:21,680
@@ -246,7 +246,7 @@ file called KotlinMinutes
 50
 00:01:27,840 --> 00:01:29,600
 Kotlin 文件的扩展名是 .kt
-the file extension for kotlin files is dot kt
+the file extension for Kotlin files is dot kt
 
 51
 00:01:29,600 --> 00:01:31,680
@@ -346,7 +346,7 @@ world as we expect
 70
 00:01:59,280 --> 00:02:00,719
 让我们从变量开始我们的 Kotlin 之旅
-let's start our tour of kotlin with variables
+let's start our tour of Kotlin with variables
 
 71
 00:02:00,719 --> 00:02:03,040
@@ -401,7 +401,7 @@ turn a different color in the editor
 81
 00:02:17,520 --> 00:02:19,840
 在 Kotlin 中，每个变量都必须属于一种类型
-in kotlin every variable must have a
+in Kotlin every variable must have a
 
 82
 00:02:19,840 --> 00:02:21,120
@@ -411,7 +411,7 @@ type that's why we say
 83
 00:02:21,120 --> 00:02:23,040
 在这个例子中，这个变量名为 firstName
-kotlin is statically typed so in this
+Kotlin is statically typed so in this
 
 84
 00:02:23,040 --> 00:02:24,959
@@ -446,7 +446,7 @@ this is of type string
 90
 00:02:33,680 --> 00:02:35,360
 这就是 Kotlin 的实用功能之一——类型识别
-this is a nice feature of kotlin called
+this is a nice feature of Kotlin called
 
 91
 00:02:35,360 --> 00:02:37,040
@@ -531,7 +531,7 @@ so that'll be a val there are a few
 107
 00:03:01,519 --> 00:03:02,959
 除了刚刚讲的字符串和整型外，Kotlin 还内置了几种数据类型
-other built-in types in kotlin in
+other built-in types in Kotlin in
 
 108
 00:03:02,959 --> 00:03:04,800
@@ -751,7 +751,7 @@ indexing into the string
 151
 00:04:17,600 --> 00:04:19,680
 Kotlin 的下标和大多数编程语言一样从 0 开始
-like this in kotlin like most other
+like this in Kotlin like most other
 
 152
 00:04:19,680 --> 00:04:21,279
@@ -781,7 +781,7 @@ output we can see the first two
 157
 00:04:28,000 --> 00:04:30,639
 我们也可以用 isEmpty() 方法来检查字符出是否为空
-letters of kotlin we can also check if a
+letters of Kotlin we can also check if a
 
 158
 00:04:30,639 --> 00:04:32,320
@@ -821,7 +821,7 @@ if we run this we can see that my string
 165
 00:04:42,160 --> 00:04:43,919
 运行时我们可以得知我的字符串不为空，因为其中有字符
-kotlin is not empty because it has
+Kotlin is not empty because it has
 
 166
 00:04:43,919 --> 00:04:44,560
@@ -891,7 +891,7 @@ one really handy tip as you start
 179
 00:05:10,080 --> 00:05:12,000
 当你写了更多 Kotlin 代码之后，有个实用的建议：
-writing more kotlin is to explore
+writing more Kotlin is to explore
 
 180
 00:05:12,000 --> 00:05:13,520
@@ -931,7 +931,7 @@ variable the period is probably one of
 187
 00:05:24,960 --> 00:05:27,199
 句号可能是 Kotlin 中最重要的符号之一
-the most important symbols in kotlin
+the most important symbols in Kotlin
 
 188
 00:05:27,199 --> 00:05:29,520
@@ -1281,7 +1281,7 @@ by looking at index 2 of our names list
 257
 00:07:32,720 --> 00:07:35,199
 记住 Kotlin 是从 0 开始计数的，所以 Ali
-remember that kotlin is 0 indexed so Ali
+remember that Kotlin is 0 indexed so Ali
 
 258
 00:07:35,199 --> 00:07:36,400
@@ -1311,7 +1311,7 @@ by default
 263
 00:07:43,440 --> 00:07:45,280
 Kotlin 中的集合是只读的
-collections in kotlin are immutable
+collections in Kotlin are immutable
 
 264
 00:07:45,280 --> 00:07:47,039
@@ -1801,7 +1801,7 @@ finally the concept of null is really
 361
 00:10:34,480 --> 00:10:35,920
 最后，Null 的概念在 Kotlin 中很重要
-important in kotlin
+important in Kotlin
 
 362
 00:10:35,920 --> 00:10:38,160
@@ -2021,7 +2021,7 @@ if you're interested in learning more
 405
 00:11:51,680 --> 00:11:53,760
 如果你想观看更多关于 Kotlin 的视频
-about all the good stuff in kotlin
+about all the good stuff in Kotlin
 
 406
 00:11:53,760 --> 00:11:55,360
