@@ -1,6 +1,9 @@
 # Aynxul03 的翻译仓库
 [English Version of README](https://github.com/Ayx03/Translation/blob/main/README-en_US.md)
 ## 目录
+
+[**如何参与贡献**](#如何参与贡献)
+
 [使用本库中的翻译](#使用本库中的翻译)
 
 [字幕/歌词](#字幕歌词)
@@ -11,7 +14,7 @@
 
 [当前进度](#当前进度)
 
-[如何参与贡献](#如何参与贡献)
+
 
 
 这个库存放了一些我个人完成和与他人合作完成的翻译作品。
