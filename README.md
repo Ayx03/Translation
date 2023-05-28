@@ -43,5 +43,5 @@
   - 你的更改看起来会像[这样](https://github.com/Ayx03/Translation/pull/1/commits/2e60e6e6976d711fd8b71c662629e9944f4d9061)
 - （可选）在右上角点击你的头像，选择 `Your repositories` 并找到 fork 的同名仓库，切换到 `patch-1` 分支后打开文件来进行更多更改
 - 创建 Pull Request
-  - 这里是一个例子：#1
+  - 这里是一个例子： #1
 - 如果你做的更改看起来很棒，我们会将它合并到主线。（当然，也有些时候我们会想要做一些修改，所以建议勾选 `Allow edits by maintainers`）
