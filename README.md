@@ -1,5 +1,7 @@
-# Aynxul03 的翻译仓库
-[English Version of README](https://github.com/Ayx03/Translation/blob/main/README-en_US.md)
+# ImAyx 的翻译仓库
+这个库存放了一些我个人独自完成和与他人合作完成的翻译作品。
+
+[English Version of README (may be outdated)](https://github.com/Ayx03/Translation/blob/main/README-en_US.md)
 ## 目录
 
 [**如何参与贡献**](#如何参与贡献)
@@ -10,29 +12,12 @@
 
 [OI 题面](#oi-题面)
 
-[正在制作](#正在制作)
-
-[当前进度](#当前进度)
-
-
-
-
-这个库存放了一些我个人完成和与他人合作完成的翻译作品。
 ### 使用本库中的翻译
 非商业用途请标明出处（附上本库和您利用的文件的链接）以及截至您引用为止时的贡献者名单。暂不允许用于商业用途，[字幕/歌词类作品](#字幕歌词)的视频/音乐原作者除外。
 ## 字幕/歌词
 [Smile - Ukuletea // Original Song (out on spotify!)](https://github.com/Ayx03/Translation/blob/main/Smile%20-%20Ukuletea%20__%20Original%20Song%20(out%20on%20spotify!).srt)
 ## OI 题面
 [CF1607C Minimum Extraction](https://github.com/Ayx03/Translation/blob/main/CF1607C%20Minimum%20Extraction.md)
-## 正在制作
-[视频] [Kotlin 0 基础小白12分钟快速入门教程——Kotlin 的变量、运算符、字符串、if 语句、for 循环、函数 Kotlin in 12 minutes](https://www.bilibili.com/video/BV11L411K7R9/) 的中文字幕（基于 YouTube 自动生成的中文字幕）。
-
-该视频的 CC 字幕文件：[Learn Kotlin in 12 Minutes - 2022.srt](https://github.com/Ayx03/Translation/blob/main/Learn%20Kotlin%20in%2012%20Minutes%20-%202022.srt)
-## 当前进度
-已翻译 **`286`** 行/共 **`408`** 行
-
-完成度约 **`70.09803921568627%`**
-
 ## 如何参与贡献
 从未接触过 [Git](https://git-scm.com/) 和 [GitHub](https://github.com/)？不会用命令行？搞不懂怎么发 pr/issue？没关系，这很容易。
 
