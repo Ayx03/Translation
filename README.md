@@ -13,7 +13,7 @@
 [OI 题面](#oi-题面)
 
 ### 使用本库中的翻译
-非商业用途请标明出处（附上本库和您利用的文件的链接）以及截至您引用为止时的贡献者名单。暂不允许用于商业用途，[字幕/歌词类作品](#字幕歌词)的视频/音乐原作者除外。
+非商业用途请发 Issue 申请，标明出处（附上本库和您利用的文件的链接）以及截至您引用为止时的贡献者名单。暂不允许用于商业用途。
 ## 字幕/歌词
 [Smile - Ukuletea // Original Song (out on spotify!)](https://github.com/Ayx03/Translation/blob/main/Smile%20-%20Ukuletea%20__%20Original%20Song%20(out%20on%20spotify!).srt)
 ## OI 题面
