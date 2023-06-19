@@ -1,5 +1,5 @@
 # ImAyx 的翻译仓库
-这个库存放了一些我个人独自完成和与他人合作完成的翻译作品。
+这个存储库包含一些我个人独自完成和与他人合作完成的翻译作品，字幕类作品包含原视频的字幕。
 
 [English Version of README (may be outdated)](https://github.com/Ayx03/Translation/blob/main/README-en_US.md)
 ## 目录
