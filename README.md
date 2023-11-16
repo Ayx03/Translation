@@ -30,9 +30,12 @@
 - 先点击右上角的 [`Fork`](https://github.com/Ayx03/Translation/fork) 来在你的账号中创建一份本仓库的副本
 ![image](https://user-images.githubusercontent.com/75155322/178154644-6aa1eda9-7bd0-4923-95e1-c833bb52a5f4.png)
 
-   - 放心，你在这份 `Fork` 里的任何修改在提交 pr 并被合并前都不会影响到原始仓库。
+   - 放心，你在这份 `Fork` 里的任何修改在提交 pr 并被合并前都不会影响到这个原始仓库。
    - 不要害怕编辑，勇于更新翻译！（from [Wikipedia](https://www.wikipedia.org/)）
-- 在浏览器里编辑或复制整个文件到你的编辑器中，编辑完成后再粘贴回来
+- 对于视频字幕，根据视频的 Video ID 找到对应的存放字幕的文件夹，再在文件夹中找到你要修改的语言的字幕文件。
+![image](https://github.com/Ayx03/Translation/assets/75155322/fff8eeb6-76c0-4c49-acfb-e719ebf619be)
+
+- 直接在浏览器里编辑或复制/下载整个文件到你的编辑器中，编辑完成后再粘贴/上传回来
 ![image](https://user-images.githubusercontent.com/75155322/178154778-fe578a37-f24e-42f3-a143-48c72c647ec4.png)
   - （对于`.srt`文件）如果你要为没有翻译的段落添加翻译，在英文原文上方回车创建一个空行，并把中文翻译写在里面（点击 `Preview changes` 可以预览你做的修改，绿色表示增加，红色表示删除）
   ![image](https://user-images.githubusercontent.com/75155322/178154794-5195fff4-0277-408c-aafe-5e16ce843248.png)
