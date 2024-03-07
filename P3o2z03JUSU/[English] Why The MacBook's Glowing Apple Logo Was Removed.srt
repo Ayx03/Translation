@@ -1,0 +1,278 @@
+1
+00:00:00,040 --> 00:00:04,190
+Back in 2015, Apple introduced the 12-inch
+MacBook.
+
+2
+00:00:04,190 --> 00:00:08,109
+The first model ever to feature an Apple logo
+that didn’t light up.
+
+3
+00:00:08,109 --> 00:00:13,340
+And since then, the MacBook Pro and MacBook
+Air have also received the same treatment.
+
+4
+00:00:13,340 --> 00:00:18,900
+This caused some controversy, since the glowing
+Apple logo has been around for over two decades
+
+5
+00:00:18,900 --> 00:00:22,810
+and has become an iconic design element of
+Apple’s notebooks.
+
+6
+00:00:22,810 --> 00:00:25,240
+So why was the illuminated Apple logo removed?
+
+7
+00:00:25,240 --> 00:00:28,940
+Well, that’s exactly what I’ll explain
+right now.
+
+8
+00:00:28,940 --> 00:00:33,480
+So when the 12-inch MacBook was introduced,
+it was the thinnest model in Apple’s history.
+
+9
+00:00:33,480 --> 00:00:39,840
+In fact, at 13.1 millimeters, it was 24% thinner
+than the MacBook Air.
+
+10
+00:00:39,840 --> 00:00:43,570
+But that dramatic improvement didn’t come
+without compromises.
+
+11
+00:00:43,570 --> 00:00:49,160
+For example, Apple had to create a new super-thin
+keyboard that featured butterfly mechanisms
+
+12
+00:00:49,160 --> 00:00:51,510
+instead of the traditional scissor design.
+
+13
+00:00:51,510 --> 00:00:56,261
+They claimed the new keyboard was an improvement,
+but that didn’t turn out to be the case.
+
+14
+00:00:56,261 --> 00:01:01,410
+It was extremely faulty and resulted in a
+class action lawsuit, with Apple eventually
+
+15
+00:01:01,410 --> 00:01:04,069
+reverting back to the scissor keyboards.
+
+16
+00:01:04,069 --> 00:01:09,280
+But another compromise of the 12-inch MacBook
+was the non-illuminated Apple logo.
+
+17
+00:01:09,280 --> 00:01:12,530
+Since the display was so thin, two problems
+arose.
+
+18
+00:01:12,530 --> 00:01:17,220
+First, if there was a strong light source
+behind the display, you could actually see
+
+19
+00:01:17,220 --> 00:01:20,229
+a subtle hotspot in the center of the screen.
+
+20
+00:01:20,229 --> 00:01:25,010
+Since the glowing Apple logo was a transparent
+cutout that allowed the display’s backlight
+
+21
+00:01:25,010 --> 00:01:29,640
+to shine through, but also allowed external
+light to enter.
+
+22
+00:01:29,640 --> 00:01:34,659
+This meant using the MacBook outside could
+cause color inaccuracies on the display.
+
+23
+00:01:34,659 --> 00:01:40,409
+So to eliminate this potential issue, Apple
+had to seal off the display’s chassis entirely,
+
+24
+00:01:40,409 --> 00:01:43,170
+which meant getting rid of the translucent
+logo.
+
+25
+00:01:43,170 --> 00:01:48,030
+But there was another benefit to this approach,
+the thinness of the MacBook’s display combined
+
+26
+00:01:48,030 --> 00:01:52,409
+with the Apple logo cutout, caused structural
+rigidity issues.
+
+27
+00:01:52,409 --> 00:01:57,350
+Just like the iPad Pro was easily bent thanks
+to the Apple Pencil attachment cutout, the
+
+28
+00:01:57,350 --> 00:02:01,490
+MacBook could’ve easily been bent due to
+the Apple logo cutout.
+
+29
+00:02:01,490 --> 00:02:07,050
+So replacing its weak spot with a piece of
+metal, helped eliminate this structural weakness.
+
+30
+00:02:07,050 --> 00:02:12,230
+The third reason why Apple got rid of their
+glowing logo is for purely aesthetic reasons.
+
+31
+00:02:12,230 --> 00:02:18,469
+Back when the trend started in 1999 with the
+PowerBook G3, Apple was mounting a comeback.
+
+32
+00:02:18,469 --> 00:02:23,250
+Steve Jobs had just returned to the company
+three years prior, and he put a huge focus
+
+33
+00:02:23,250 --> 00:02:26,180
+on establishing a new reputation for Apple.
+
+34
+00:02:26,180 --> 00:02:29,469
+Since they’d fallen out of favor with customers
+over the past decade.
+
+35
+00:02:29,469 --> 00:02:34,549
+That’s what sparked the Think Different
+ad campaign, and radical new computer designs
+
+36
+00:02:34,549 --> 00:02:36,079
+like the iMac and PowerBook.
+
+37
+00:02:36,079 --> 00:02:41,379
+It was the first time a glowing Apple logo
+had been used, and it was crucial in creating
+
+38
+00:02:41,379 --> 00:02:42,840
+brand awareness.
+
+39
+00:02:42,840 --> 00:02:47,419
+Seeing a prominently displayed Apple logo
+in public reminded people that the company
+
+40
+00:02:47,419 --> 00:02:51,450
+was still around, and was actually creating
+some really cool products.
+
+41
+00:02:51,450 --> 00:02:56,109
+But today, Apple has been moving away from
+this overt brand strategy and shifting to
+
+42
+00:02:56,109 --> 00:02:57,349
+something more subtle.
+
+43
+00:02:57,349 --> 00:03:02,559
+For example, they could’ve put an Apple
+logo on the AirPods Max, like almost every
+
+44
+00:03:02,559 --> 00:03:05,249
+other headphone manufacturer, but they didn’t.
+
+45
+00:03:05,249 --> 00:03:10,410
+Also, with the 24-inch iMac, Apple removed
+their logo from the product’s chin for the
+
+46
+00:03:10,410 --> 00:03:12,090
+first time since 2004.
+
+47
+00:03:12,090 --> 00:03:17,529
+And it makes sense why they don’t need their
+logo to be as overtly display anymore.
+
+48
+00:03:17,529 --> 00:03:21,739
+Apple isn’t struggling to garner attention
+or win customers from other brands.
+
+49
+00:03:21,739 --> 00:03:26,529
+They’re by far the biggest and most recognizable
+tech company in the world.
+
+50
+00:03:26,529 --> 00:03:30,579
+With almost every product they create dominating
+their respective market.
+
+51
+00:03:30,579 --> 00:03:34,209
+Apple has also been unifying their product
+design in recent years.
+
+52
+00:03:34,209 --> 00:03:40,420
+And since the iPad, iPhone, and Mac desktops
+all have non-illuminated Apple logos, it makes
+
+53
+00:03:40,420 --> 00:03:44,439
+sense to carry that design language through
+to the MacBook line.
+
+54
+00:03:44,439 --> 00:03:48,989
+So while it’s understandable to feel sentimental
+about losing the glowing Apple logo, it can
+
+55
+00:03:48,989 --> 00:03:50,980
+also spark some excitement.
+
+56
+00:03:50,980 --> 00:03:56,510
+Since it represents a new era of Apple, with
+plenty of incredible products yet to come.
+
+57
+00:03:56,510 --> 00:04:00,160
+This is Greg from Apple Explained, thanks
+for watching till the end, and I’ll see
+
+58
+00:04:00,160 --> 00:04:01,279
+you in the next video.
+
